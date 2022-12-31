@@ -32,7 +32,7 @@
     #   };
     # };
     nixosConfigurations = {
-      nixos = nixpkgs.lib.nixosSystem{
+      bruce-banner = nixpkgs.lib.nixosSystem{
         system = "x86_64-linux";
         modules = [
           # ./bruce-banner.nix

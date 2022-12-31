@@ -20,13 +20,15 @@
   home.stateVersion = "22.05";
 
   home.packages = with pkgs; [
+    direnv
+    vscode-extensions.mkhl.direnv
+    nix-direnv
   ];
 
   programs.git = {
     enable = true;
     userEmail = "10679234+arichtman@users.noreply.github.com";
     userName = "Richtman, Ariel";
-    ignores = [ "*~" ".DS_Store" ];
     extraConfig = {
       pull = {
         rebase = true;
@@ -36,5 +38,11 @@
         default = "current";
       };
     };
+  };
+  home.shellAliases = {
+    ll = "ls -hAlLrt";
+    ".." = "cd ../..";
+    "..." = "cd ../../..";
+    "...." = "cd ../../../..";
   };
 }

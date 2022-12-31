@@ -14,7 +14,7 @@ in
     })
     #home-manager
   ];
-  # networking.hostName = "bruce-banner";
+  networking.hostName = "bruce-banner";
   wsl = {
     enable = true;
     automountPath = "/mnt";
@@ -55,5 +55,5 @@ in
     experimental-features = nix-command flakes
   '';
 
-  system.stateVersion = "22.11";
+  system.stateVersion = "22.05";
 }
