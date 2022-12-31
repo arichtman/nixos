@@ -14,7 +14,7 @@ in
     })
     #home-manager
   ];
-
+  # networking.hostName = "bruce-banner";
   wsl = {
     enable = true;
     automountPath = "/mnt";
