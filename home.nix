@@ -1,30 +1,41 @@
 { config, pkgs, ... }:
+# { inputs, ... }:
 
+# with inputs;
 {
   # Let Home Manager install and manage itself.
   programs.home-manager.enable = true;
 
-  # Home Manager needs a bit of information about you and the
-  # paths it should manage.
-  home.username = "nixos";
-  home.homeDirectory = "/home/nixos";
+  home = {
+    # Home Manager needs a bit of information about you and the
+    # paths it should manage.
+    username = "nixos";
+    homeDirectory = "/home/nixos";
 
-  # This value determines the Home Manager release that your
-  # configuration is compatible with. This helps avoid breakage
-  # when a new Home Manager release introduces backwards
-  # incompatible changes.
-  #
-  # You can update Home Manager without changing this value. See
-  # the Home Manager release notes for a list of state version
-  # changes in each release.
-  home.stateVersion = "22.05";
+    # This value determines the Home Manager release that your
+    # configuration is compatible with. This helps avoid breakage
+    # when a new Home Manager release introduces backwards
+    # incompatible changes.
+    #
+    # You can update Home Manager without changing this value. See
+    # the Home Manager release notes for a list of state version
+    # changes in each release.
+    stateVersion = "22.05";
 
-  home.packages = with pkgs; [
-    direnv
-    vscode-extensions.mkhl.direnv
-    nix-direnv
-  ];
+    packages = with pkgs; [
+      vscode-extensions.mkhl.direnv
+    ];
 
+    shellAliases = {
+      # clashes with Exa
+      # ll = "ls -hAlLrt";
+      ".." = "cd ../..";
+      "..." = "cd ../../..";
+      "...." = "cd ../../../..";
+      cls = "clear";
+    };
+    enableNixpkgsReleaseCheck = true;
+  };
   programs.git = {
     enable = true;
     userEmail = "10679234+arichtman@users.noreply.github.com";
@@ -39,10 +50,38 @@
       };
     };
   };
-  home.shellAliases = {
-    ll = "ls -hAlLrt";
-    ".." = "cd ../..";
-    "..." = "cd ../../..";
-    "...." = "cd ../../../..";
+  programs = {
+    bash = {
+      enable = true;
+      enableCompletion = true;
+    };
+    bat.enable = true;
+    command-not-found.enable = true;
+    direnv = {
+      enable = true;
+      enableBashIntegration = true;
+      nix-direnv.enable = true;
+    };
+    exa = {
+      enable = true;
+      enableAliases = true;
+    };
+    fzf = {
+      enable = true;
+      enableBashIntegration = true;
+    };
+    gpg.enable = true;
+    htop.enable = true;
+    jq.enable = true;
+    less.enable = true;
+  };
+  editorconfig = {
+    enable = true;
+    settings = {
+      "*" = {
+        indent_size = 2;
+        indent_style = "space";
+      };
+    };
   };
 }
