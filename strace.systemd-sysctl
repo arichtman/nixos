@@ -1,0 +1,1270 @@
+execve("/nix/store/9rjdvhq7hnzwwhib8na2gmllsrh671xg-systemd-252.1/lib/systemd/systemd-sysctl", ["/nix/store/9rjdvhq7hnzwwhib8na2g"...], 0x7ffcc137a480 /* 59 vars */) = 0
+brk(NULL)                               = 0x5645894b2000
+arch_prctl(0x3001 /* ARCH_??? */, 0x7ffd00bd0490) = -1 EINVAL (Invalid argument)
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa50d400000
+access("/etc/ld-nix.so.preload", R_OK)  = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/9rjdvhq7hnzwwhib8na2gmllsrh671xg-systemd-252.1/lib/systemd/glibc-hwcaps/x86-64-v3/libsystemd-shared-252.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/9rjdvhq7hnzwwhib8na2gmllsrh671xg-systemd-252.1/lib/systemd/glibc-hwcaps/x86-64-v3", 0x7ffd00bcf6a0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/9rjdvhq7hnzwwhib8na2gmllsrh671xg-systemd-252.1/lib/systemd/glibc-hwcaps/x86-64-v2/libsystemd-shared-252.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/9rjdvhq7hnzwwhib8na2gmllsrh671xg-systemd-252.1/lib/systemd/glibc-hwcaps/x86-64-v2", 0x7ffd00bcf6a0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/9rjdvhq7hnzwwhib8na2gmllsrh671xg-systemd-252.1/lib/systemd/tls/haswell/x86_64/libsystemd-shared-252.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/9rjdvhq7hnzwwhib8na2gmllsrh671xg-systemd-252.1/lib/systemd/tls/haswell/x86_64", 0x7ffd00bcf6a0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/9rjdvhq7hnzwwhib8na2gmllsrh671xg-systemd-252.1/lib/systemd/tls/haswell/libsystemd-shared-252.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/9rjdvhq7hnzwwhib8na2gmllsrh671xg-systemd-252.1/lib/systemd/tls/haswell", 0x7ffd00bcf6a0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/9rjdvhq7hnzwwhib8na2gmllsrh671xg-systemd-252.1/lib/systemd/tls/x86_64/libsystemd-shared-252.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/9rjdvhq7hnzwwhib8na2gmllsrh671xg-systemd-252.1/lib/systemd/tls/x86_64", 0x7ffd00bcf6a0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/9rjdvhq7hnzwwhib8na2gmllsrh671xg-systemd-252.1/lib/systemd/tls/libsystemd-shared-252.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/9rjdvhq7hnzwwhib8na2gmllsrh671xg-systemd-252.1/lib/systemd/tls", 0x7ffd00bcf6a0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/9rjdvhq7hnzwwhib8na2gmllsrh671xg-systemd-252.1/lib/systemd/haswell/x86_64/libsystemd-shared-252.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/9rjdvhq7hnzwwhib8na2gmllsrh671xg-systemd-252.1/lib/systemd/haswell/x86_64", 0x7ffd00bcf6a0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/9rjdvhq7hnzwwhib8na2gmllsrh671xg-systemd-252.1/lib/systemd/haswell/libsystemd-shared-252.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/9rjdvhq7hnzwwhib8na2gmllsrh671xg-systemd-252.1/lib/systemd/haswell", 0x7ffd00bcf6a0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/9rjdvhq7hnzwwhib8na2gmllsrh671xg-systemd-252.1/lib/systemd/x86_64/libsystemd-shared-252.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/9rjdvhq7hnzwwhib8na2gmllsrh671xg-systemd-252.1/lib/systemd/x86_64", 0x7ffd00bcf6a0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/9rjdvhq7hnzwwhib8na2gmllsrh671xg-systemd-252.1/lib/systemd/libsystemd-shared-252.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+pread64(3, "\4\0\0\0 \0\0\0\5\0\0\0GNU\0\1\0\1\300\4\0\0\0\t\0\0\0\0\0\0\0"..., 48, 3176496) = 48
+newfstatat(3, "", {st_mode=S_IFREG|0555, st_size=3696776, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 3301384, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa50d0d9000
+mmap(0x7fa50d14b000, 1929216, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x72000) = 0x7fa50d14b000
+mmap(0x7fa50d322000, 782336, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x249000) = 0x7fa50d322000
+mmap(0x7fa50d3e1000, 118784, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x308000) = 0x7fa50d3e1000
+mmap(0x7fa50d3fe000, 4104, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fa50d3fe000
+close(3)                                = 0
+openat(AT_FDCWD, "/nix/store/9rjdvhq7hnzwwhib8na2gmllsrh671xg-systemd-252.1/lib/systemd/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/ayfr5l52xkqqjn3n4h9jfacgnchz1z7s-glibc-2.35-224/lib/glibc-hwcaps/x86-64-v3/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/ayfr5l52xkqqjn3n4h9jfacgnchz1z7s-glibc-2.35-224/lib/glibc-hwcaps/x86-64-v3", 0x7ffd00bcf680, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/ayfr5l52xkqqjn3n4h9jfacgnchz1z7s-glibc-2.35-224/lib/glibc-hwcaps/x86-64-v2/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/ayfr5l52xkqqjn3n4h9jfacgnchz1z7s-glibc-2.35-224/lib/glibc-hwcaps/x86-64-v2", 0x7ffd00bcf680, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/ayfr5l52xkqqjn3n4h9jfacgnchz1z7s-glibc-2.35-224/lib/tls/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/ayfr5l52xkqqjn3n4h9jfacgnchz1z7s-glibc-2.35-224/lib/tls/haswell/x86_64", 0x7ffd00bcf680, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/ayfr5l52xkqqjn3n4h9jfacgnchz1z7s-glibc-2.35-224/lib/tls/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/ayfr5l52xkqqjn3n4h9jfacgnchz1z7s-glibc-2.35-224/lib/tls/haswell", 0x7ffd00bcf680, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/ayfr5l52xkqqjn3n4h9jfacgnchz1z7s-glibc-2.35-224/lib/tls/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/ayfr5l52xkqqjn3n4h9jfacgnchz1z7s-glibc-2.35-224/lib/tls/x86_64", 0x7ffd00bcf680, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/ayfr5l52xkqqjn3n4h9jfacgnchz1z7s-glibc-2.35-224/lib/tls/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/ayfr5l52xkqqjn3n4h9jfacgnchz1z7s-glibc-2.35-224/lib/tls", 0x7ffd00bcf680, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/ayfr5l52xkqqjn3n4h9jfacgnchz1z7s-glibc-2.35-224/lib/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/ayfr5l52xkqqjn3n4h9jfacgnchz1z7s-glibc-2.35-224/lib/haswell/x86_64", 0x7ffd00bcf680, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/ayfr5l52xkqqjn3n4h9jfacgnchz1z7s-glibc-2.35-224/lib/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/ayfr5l52xkqqjn3n4h9jfacgnchz1z7s-glibc-2.35-224/lib/haswell", 0x7ffd00bcf680, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/ayfr5l52xkqqjn3n4h9jfacgnchz1z7s-glibc-2.35-224/lib/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/ayfr5l52xkqqjn3n4h9jfacgnchz1z7s-glibc-2.35-224/lib/x86_64", 0x7ffd00bcf680, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/ayfr5l52xkqqjn3n4h9jfacgnchz1z7s-glibc-2.35-224/lib/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20\224\2\0\0\0\0\0"..., 832) = 832
+pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784
+pread64(3, "\4\0\0\0\20\0\0\0\5\0\0\0GNU\0\2\200\0\300\4\0\0\0\1\0\0\0\0\0\0\0", 32, 848) = 32
+pread64(3, "\4\0\0\0\24\0\0\0\3\0\0\0GNU\0.i\375I\220\317e\344\3210\215\202\261\241\270\264"..., 68, 880) = 68
+newfstatat(3, "", {st_mode=S_IFREG|0555, st_size=2400600, ...}, AT_EMPTY_PATH) = 0
+pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784
+mmap(NULL, 2133456, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa50ced0000
+mmap(0x7fa50cef8000, 1531904, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x28000) = 0x7fa50cef8000
+mmap(0x7fa50d06e000, 360448, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x19e000) = 0x7fa50d06e000
+mmap(0x7fa50d0c6000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1f6000) = 0x7fa50d0c6000
+mmap(0x7fa50d0cc000, 52688, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fa50d0cc000
+close(3)                                = 0
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa50cece000
+openat(AT_FDCWD, "/nix/store/vamwsqfpvgfwnc7ksa8k4aa52my5r1bq-libxcrypt-4.4.33/lib/glibc-hwcaps/x86-64-v3/libacl.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/vamwsqfpvgfwnc7ksa8k4aa52my5r1bq-libxcrypt-4.4.33/lib/glibc-hwcaps/x86-64-v3", 0x7ffd00bcf660, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/vamwsqfpvgfwnc7ksa8k4aa52my5r1bq-libxcrypt-4.4.33/lib/glibc-hwcaps/x86-64-v2/libacl.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/vamwsqfpvgfwnc7ksa8k4aa52my5r1bq-libxcrypt-4.4.33/lib/glibc-hwcaps/x86-64-v2", 0x7ffd00bcf660, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/vamwsqfpvgfwnc7ksa8k4aa52my5r1bq-libxcrypt-4.4.33/lib/tls/haswell/x86_64/libacl.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/vamwsqfpvgfwnc7ksa8k4aa52my5r1bq-libxcrypt-4.4.33/lib/tls/haswell/x86_64", 0x7ffd00bcf660, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/vamwsqfpvgfwnc7ksa8k4aa52my5r1bq-libxcrypt-4.4.33/lib/tls/haswell/libacl.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/vamwsqfpvgfwnc7ksa8k4aa52my5r1bq-libxcrypt-4.4.33/lib/tls/haswell", 0x7ffd00bcf660, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/vamwsqfpvgfwnc7ksa8k4aa52my5r1bq-libxcrypt-4.4.33/lib/tls/x86_64/libacl.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/vamwsqfpvgfwnc7ksa8k4aa52my5r1bq-libxcrypt-4.4.33/lib/tls/x86_64", 0x7ffd00bcf660, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/vamwsqfpvgfwnc7ksa8k4aa52my5r1bq-libxcrypt-4.4.33/lib/tls/libacl.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/vamwsqfpvgfwnc7ksa8k4aa52my5r1bq-libxcrypt-4.4.33/lib/tls", 0x7ffd00bcf660, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/vamwsqfpvgfwnc7ksa8k4aa52my5r1bq-libxcrypt-4.4.33/lib/haswell/x86_64/libacl.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/vamwsqfpvgfwnc7ksa8k4aa52my5r1bq-libxcrypt-4.4.33/lib/haswell/x86_64", 0x7ffd00bcf660, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/vamwsqfpvgfwnc7ksa8k4aa52my5r1bq-libxcrypt-4.4.33/lib/haswell/libacl.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/vamwsqfpvgfwnc7ksa8k4aa52my5r1bq-libxcrypt-4.4.33/lib/haswell", 0x7ffd00bcf660, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/vamwsqfpvgfwnc7ksa8k4aa52my5r1bq-libxcrypt-4.4.33/lib/x86_64/libacl.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/vamwsqfpvgfwnc7ksa8k4aa52my5r1bq-libxcrypt-4.4.33/lib/x86_64", 0x7ffd00bcf660, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/vamwsqfpvgfwnc7ksa8k4aa52my5r1bq-libxcrypt-4.4.33/lib/libacl.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/vamwsqfpvgfwnc7ksa8k4aa52my5r1bq-libxcrypt-4.4.33/lib", {st_mode=S_IFDIR|0555, st_size=4096, ...}, 0) = 0
+openat(AT_FDCWD, "/nix/store/dnwi357xww3rxdvr79gbvvs8zqm1x47m-acl-2.3.1/lib/glibc-hwcaps/x86-64-v3/libacl.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/dnwi357xww3rxdvr79gbvvs8zqm1x47m-acl-2.3.1/lib/glibc-hwcaps/x86-64-v3", 0x7ffd00bcf660, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/dnwi357xww3rxdvr79gbvvs8zqm1x47m-acl-2.3.1/lib/glibc-hwcaps/x86-64-v2/libacl.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/dnwi357xww3rxdvr79gbvvs8zqm1x47m-acl-2.3.1/lib/glibc-hwcaps/x86-64-v2", 0x7ffd00bcf660, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/dnwi357xww3rxdvr79gbvvs8zqm1x47m-acl-2.3.1/lib/tls/haswell/x86_64/libacl.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/dnwi357xww3rxdvr79gbvvs8zqm1x47m-acl-2.3.1/lib/tls/haswell/x86_64", 0x7ffd00bcf660, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/dnwi357xww3rxdvr79gbvvs8zqm1x47m-acl-2.3.1/lib/tls/haswell/libacl.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/dnwi357xww3rxdvr79gbvvs8zqm1x47m-acl-2.3.1/lib/tls/haswell", 0x7ffd00bcf660, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/dnwi357xww3rxdvr79gbvvs8zqm1x47m-acl-2.3.1/lib/tls/x86_64/libacl.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/dnwi357xww3rxdvr79gbvvs8zqm1x47m-acl-2.3.1/lib/tls/x86_64", 0x7ffd00bcf660, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/dnwi357xww3rxdvr79gbvvs8zqm1x47m-acl-2.3.1/lib/tls/libacl.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/dnwi357xww3rxdvr79gbvvs8zqm1x47m-acl-2.3.1/lib/tls", 0x7ffd00bcf660, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/dnwi357xww3rxdvr79gbvvs8zqm1x47m-acl-2.3.1/lib/haswell/x86_64/libacl.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/dnwi357xww3rxdvr79gbvvs8zqm1x47m-acl-2.3.1/lib/haswell/x86_64", 0x7ffd00bcf660, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/dnwi357xww3rxdvr79gbvvs8zqm1x47m-acl-2.3.1/lib/haswell/libacl.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/dnwi357xww3rxdvr79gbvvs8zqm1x47m-acl-2.3.1/lib/haswell", 0x7ffd00bcf660, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/dnwi357xww3rxdvr79gbvvs8zqm1x47m-acl-2.3.1/lib/x86_64/libacl.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/dnwi357xww3rxdvr79gbvvs8zqm1x47m-acl-2.3.1/lib/x86_64", 0x7ffd00bcf660, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/dnwi357xww3rxdvr79gbvvs8zqm1x47m-acl-2.3.1/lib/libacl.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+pread64(3, "\4\0\0\0 \0\0\0\5\0\0\0GNU\0\1\0\1\300\4\0\0\0\t\0\0\0\0\0\0\0"..., 48, 33160) = 48
+newfstatat(3, "", {st_mode=S_IFREG|0555, st_size=44848, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 41008, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa50cec3000
+mmap(0x7fa50cec5000, 20480, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7fa50cec5000
+mmap(0x7fa50ceca000, 8192, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x7000) = 0x7fa50ceca000
+mmap(0x7fa50cecc000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x8000) = 0x7fa50cecc000
+close(3)                                = 0
+openat(AT_FDCWD, "/nix/store/vamwsqfpvgfwnc7ksa8k4aa52my5r1bq-libxcrypt-4.4.33/lib/libblkid.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/dnwi357xww3rxdvr79gbvvs8zqm1x47m-acl-2.3.1/lib/libblkid.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/xp0f72w42ln0qmrgc9pih7yzmk1x817p-kmod-30-lib/lib/glibc-hwcaps/x86-64-v3/libblkid.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/xp0f72w42ln0qmrgc9pih7yzmk1x817p-kmod-30-lib/lib/glibc-hwcaps/x86-64-v3", 0x7ffd00bcf640, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/xp0f72w42ln0qmrgc9pih7yzmk1x817p-kmod-30-lib/lib/glibc-hwcaps/x86-64-v2/libblkid.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/xp0f72w42ln0qmrgc9pih7yzmk1x817p-kmod-30-lib/lib/glibc-hwcaps/x86-64-v2", 0x7ffd00bcf640, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/xp0f72w42ln0qmrgc9pih7yzmk1x817p-kmod-30-lib/lib/tls/haswell/x86_64/libblkid.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/xp0f72w42ln0qmrgc9pih7yzmk1x817p-kmod-30-lib/lib/tls/haswell/x86_64", 0x7ffd00bcf640, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/xp0f72w42ln0qmrgc9pih7yzmk1x817p-kmod-30-lib/lib/tls/haswell/libblkid.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/xp0f72w42ln0qmrgc9pih7yzmk1x817p-kmod-30-lib/lib/tls/haswell", 0x7ffd00bcf640, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/xp0f72w42ln0qmrgc9pih7yzmk1x817p-kmod-30-lib/lib/tls/x86_64/libblkid.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/xp0f72w42ln0qmrgc9pih7yzmk1x817p-kmod-30-lib/lib/tls/x86_64", 0x7ffd00bcf640, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/xp0f72w42ln0qmrgc9pih7yzmk1x817p-kmod-30-lib/lib/tls/libblkid.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/xp0f72w42ln0qmrgc9pih7yzmk1x817p-kmod-30-lib/lib/tls", 0x7ffd00bcf640, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/xp0f72w42ln0qmrgc9pih7yzmk1x817p-kmod-30-lib/lib/haswell/x86_64/libblkid.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/xp0f72w42ln0qmrgc9pih7yzmk1x817p-kmod-30-lib/lib/haswell/x86_64", 0x7ffd00bcf640, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/xp0f72w42ln0qmrgc9pih7yzmk1x817p-kmod-30-lib/lib/haswell/libblkid.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/xp0f72w42ln0qmrgc9pih7yzmk1x817p-kmod-30-lib/lib/haswell", 0x7ffd00bcf640, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/xp0f72w42ln0qmrgc9pih7yzmk1x817p-kmod-30-lib/lib/x86_64/libblkid.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/xp0f72w42ln0qmrgc9pih7yzmk1x817p-kmod-30-lib/lib/x86_64", 0x7ffd00bcf640, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/xp0f72w42ln0qmrgc9pih7yzmk1x817p-kmod-30-lib/lib/libblkid.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/xp0f72w42ln0qmrgc9pih7yzmk1x817p-kmod-30-lib/lib", {st_mode=S_IFDIR|0555, st_size=4096, ...}, 0) = 0
+openat(AT_FDCWD, "/nix/store/9vfggw8qmvdxhb1yj9yf8crqndg5xc08-libcap-2.66-lib/lib/glibc-hwcaps/x86-64-v3/libblkid.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/9vfggw8qmvdxhb1yj9yf8crqndg5xc08-libcap-2.66-lib/lib/glibc-hwcaps/x86-64-v3", 0x7ffd00bcf640, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/9vfggw8qmvdxhb1yj9yf8crqndg5xc08-libcap-2.66-lib/lib/glibc-hwcaps/x86-64-v2/libblkid.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/9vfggw8qmvdxhb1yj9yf8crqndg5xc08-libcap-2.66-lib/lib/glibc-hwcaps/x86-64-v2", 0x7ffd00bcf640, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/9vfggw8qmvdxhb1yj9yf8crqndg5xc08-libcap-2.66-lib/lib/tls/haswell/x86_64/libblkid.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/9vfggw8qmvdxhb1yj9yf8crqndg5xc08-libcap-2.66-lib/lib/tls/haswell/x86_64", 0x7ffd00bcf640, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/9vfggw8qmvdxhb1yj9yf8crqndg5xc08-libcap-2.66-lib/lib/tls/haswell/libblkid.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/9vfggw8qmvdxhb1yj9yf8crqndg5xc08-libcap-2.66-lib/lib/tls/haswell", 0x7ffd00bcf640, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/9vfggw8qmvdxhb1yj9yf8crqndg5xc08-libcap-2.66-lib/lib/tls/x86_64/libblkid.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/9vfggw8qmvdxhb1yj9yf8crqndg5xc08-libcap-2.66-lib/lib/tls/x86_64", 0x7ffd00bcf640, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/9vfggw8qmvdxhb1yj9yf8crqndg5xc08-libcap-2.66-lib/lib/tls/libblkid.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/9vfggw8qmvdxhb1yj9yf8crqndg5xc08-libcap-2.66-lib/lib/tls", 0x7ffd00bcf640, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/9vfggw8qmvdxhb1yj9yf8crqndg5xc08-libcap-2.66-lib/lib/haswell/x86_64/libblkid.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/9vfggw8qmvdxhb1yj9yf8crqndg5xc08-libcap-2.66-lib/lib/haswell/x86_64", 0x7ffd00bcf640, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/9vfggw8qmvdxhb1yj9yf8crqndg5xc08-libcap-2.66-lib/lib/haswell/libblkid.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/9vfggw8qmvdxhb1yj9yf8crqndg5xc08-libcap-2.66-lib/lib/haswell", 0x7ffd00bcf640, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/9vfggw8qmvdxhb1yj9yf8crqndg5xc08-libcap-2.66-lib/lib/x86_64/libblkid.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/9vfggw8qmvdxhb1yj9yf8crqndg5xc08-libcap-2.66-lib/lib/x86_64", 0x7ffd00bcf640, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/9vfggw8qmvdxhb1yj9yf8crqndg5xc08-libcap-2.66-lib/lib/libblkid.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/9vfggw8qmvdxhb1yj9yf8crqndg5xc08-libcap-2.66-lib/lib", {st_mode=S_IFDIR|0555, st_size=4096, ...}, 0) = 0
+openat(AT_FDCWD, "/nix/store/y4rv9w9arq9fdzbb0rw1kx3rgf6aj909-util-linux-minimal-2.38.1-lib/lib/glibc-hwcaps/x86-64-v3/libblkid.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/y4rv9w9arq9fdzbb0rw1kx3rgf6aj909-util-linux-minimal-2.38.1-lib/lib/glibc-hwcaps/x86-64-v3", 0x7ffd00bcf640, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/y4rv9w9arq9fdzbb0rw1kx3rgf6aj909-util-linux-minimal-2.38.1-lib/lib/glibc-hwcaps/x86-64-v2/libblkid.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/y4rv9w9arq9fdzbb0rw1kx3rgf6aj909-util-linux-minimal-2.38.1-lib/lib/glibc-hwcaps/x86-64-v2", 0x7ffd00bcf640, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/y4rv9w9arq9fdzbb0rw1kx3rgf6aj909-util-linux-minimal-2.38.1-lib/lib/tls/haswell/x86_64/libblkid.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/y4rv9w9arq9fdzbb0rw1kx3rgf6aj909-util-linux-minimal-2.38.1-lib/lib/tls/haswell/x86_64", 0x7ffd00bcf640, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/y4rv9w9arq9fdzbb0rw1kx3rgf6aj909-util-linux-minimal-2.38.1-lib/lib/tls/haswell/libblkid.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/y4rv9w9arq9fdzbb0rw1kx3rgf6aj909-util-linux-minimal-2.38.1-lib/lib/tls/haswell", 0x7ffd00bcf640, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/y4rv9w9arq9fdzbb0rw1kx3rgf6aj909-util-linux-minimal-2.38.1-lib/lib/tls/x86_64/libblkid.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/y4rv9w9arq9fdzbb0rw1kx3rgf6aj909-util-linux-minimal-2.38.1-lib/lib/tls/x86_64", 0x7ffd00bcf640, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/y4rv9w9arq9fdzbb0rw1kx3rgf6aj909-util-linux-minimal-2.38.1-lib/lib/tls/libblkid.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/y4rv9w9arq9fdzbb0rw1kx3rgf6aj909-util-linux-minimal-2.38.1-lib/lib/tls", 0x7ffd00bcf640, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/y4rv9w9arq9fdzbb0rw1kx3rgf6aj909-util-linux-minimal-2.38.1-lib/lib/haswell/x86_64/libblkid.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/y4rv9w9arq9fdzbb0rw1kx3rgf6aj909-util-linux-minimal-2.38.1-lib/lib/haswell/x86_64", 0x7ffd00bcf640, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/y4rv9w9arq9fdzbb0rw1kx3rgf6aj909-util-linux-minimal-2.38.1-lib/lib/haswell/libblkid.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/y4rv9w9arq9fdzbb0rw1kx3rgf6aj909-util-linux-minimal-2.38.1-lib/lib/haswell", 0x7ffd00bcf640, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/y4rv9w9arq9fdzbb0rw1kx3rgf6aj909-util-linux-minimal-2.38.1-lib/lib/x86_64/libblkid.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/y4rv9w9arq9fdzbb0rw1kx3rgf6aj909-util-linux-minimal-2.38.1-lib/lib/x86_64", 0x7ffd00bcf640, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/y4rv9w9arq9fdzbb0rw1kx3rgf6aj909-util-linux-minimal-2.38.1-lib/lib/libblkid.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+newfstatat(3, "", {st_mode=S_IFREG|0555, st_size=406664, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 358200, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa50ce6b000
+mmap(0x7fa50ce75000, 221184, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xa000) = 0x7fa50ce75000
+mmap(0x7fa50ceab000, 69632, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x40000) = 0x7fa50ceab000
+mmap(0x7fa50cebc000, 28672, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x51000) = 0x7fa50cebc000
+close(3)                                = 0
+openat(AT_FDCWD, "/nix/store/vamwsqfpvgfwnc7ksa8k4aa52my5r1bq-libxcrypt-4.4.33/lib/libcap.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/dnwi357xww3rxdvr79gbvvs8zqm1x47m-acl-2.3.1/lib/libcap.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/xp0f72w42ln0qmrgc9pih7yzmk1x817p-kmod-30-lib/lib/libcap.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/9vfggw8qmvdxhb1yj9yf8crqndg5xc08-libcap-2.66-lib/lib/libcap.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\200t\0\0\0\0\0\0"..., 832) = 832
+pread64(3, "\4\0\0\0 \0\0\0\5\0\0\0GNU\0\1\0\1\300\4\0\0\0\t\0\0\0\0\0\0\0"..., 48, 39576) = 48
+newfstatat(3, "", {st_mode=S_IFREG|0555, st_size=52576, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 45128, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa50ce5f000
+mmap(0x7fa50ce62000, 20480, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x7fa50ce62000
+mmap(0x7fa50ce67000, 8192, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x8000) = 0x7fa50ce67000
+mmap(0x7fa50ce69000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xa000) = 0x7fa50ce69000
+close(3)                                = 0
+openat(AT_FDCWD, "/nix/store/vamwsqfpvgfwnc7ksa8k4aa52my5r1bq-libxcrypt-4.4.33/lib/libcrypt.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+pread64(3, "\4\0\0\0 \0\0\0\5\0\0\0GNU\0\1\0\1\300\4\0\0\0\t\0\0\0\0\0\0\0"..., 48, 198688) = 48
+newfstatat(3, "", {st_mode=S_IFREG|0555, st_size=213800, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 238280, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa50ce24000
+mmap(0x7fa50ce26000, 86016, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7fa50ce26000
+mmap(0x7fa50ce3b000, 106496, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17000) = 0x7fa50ce3b000
+mmap(0x7fa50ce55000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x30000) = 0x7fa50ce55000
+mmap(0x7fa50ce57000, 29384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fa50ce57000
+close(3)                                = 0
+openat(AT_FDCWD, "/nix/store/vamwsqfpvgfwnc7ksa8k4aa52my5r1bq-libxcrypt-4.4.33/lib/libgcrypt.so.20", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/dnwi357xww3rxdvr79gbvvs8zqm1x47m-acl-2.3.1/lib/libgcrypt.so.20", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/xp0f72w42ln0qmrgc9pih7yzmk1x817p-kmod-30-lib/lib/libgcrypt.so.20", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/9vfggw8qmvdxhb1yj9yf8crqndg5xc08-libcap-2.66-lib/lib/libgcrypt.so.20", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/y4rv9w9arq9fdzbb0rw1kx3rgf6aj909-util-linux-minimal-2.38.1-lib/lib/libgcrypt.so.20", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/w4df0h1w8wpsnm1yrsk46rgziwiz25h7-linux-pam-1.5.2/lib/glibc-hwcaps/x86-64-v3/libgcrypt.so.20", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/w4df0h1w8wpsnm1yrsk46rgziwiz25h7-linux-pam-1.5.2/lib/glibc-hwcaps/x86-64-v3", 0x7ffd00bcf5e0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/w4df0h1w8wpsnm1yrsk46rgziwiz25h7-linux-pam-1.5.2/lib/glibc-hwcaps/x86-64-v2/libgcrypt.so.20", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/w4df0h1w8wpsnm1yrsk46rgziwiz25h7-linux-pam-1.5.2/lib/glibc-hwcaps/x86-64-v2", 0x7ffd00bcf5e0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/w4df0h1w8wpsnm1yrsk46rgziwiz25h7-linux-pam-1.5.2/lib/tls/haswell/x86_64/libgcrypt.so.20", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/w4df0h1w8wpsnm1yrsk46rgziwiz25h7-linux-pam-1.5.2/lib/tls/haswell/x86_64", 0x7ffd00bcf5e0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/w4df0h1w8wpsnm1yrsk46rgziwiz25h7-linux-pam-1.5.2/lib/tls/haswell/libgcrypt.so.20", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/w4df0h1w8wpsnm1yrsk46rgziwiz25h7-linux-pam-1.5.2/lib/tls/haswell", 0x7ffd00bcf5e0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/w4df0h1w8wpsnm1yrsk46rgziwiz25h7-linux-pam-1.5.2/lib/tls/x86_64/libgcrypt.so.20", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/w4df0h1w8wpsnm1yrsk46rgziwiz25h7-linux-pam-1.5.2/lib/tls/x86_64", 0x7ffd00bcf5e0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/w4df0h1w8wpsnm1yrsk46rgziwiz25h7-linux-pam-1.5.2/lib/tls/libgcrypt.so.20", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/w4df0h1w8wpsnm1yrsk46rgziwiz25h7-linux-pam-1.5.2/lib/tls", 0x7ffd00bcf5e0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/w4df0h1w8wpsnm1yrsk46rgziwiz25h7-linux-pam-1.5.2/lib/haswell/x86_64/libgcrypt.so.20", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/w4df0h1w8wpsnm1yrsk46rgziwiz25h7-linux-pam-1.5.2/lib/haswell/x86_64", 0x7ffd00bcf5e0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/w4df0h1w8wpsnm1yrsk46rgziwiz25h7-linux-pam-1.5.2/lib/haswell/libgcrypt.so.20", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/w4df0h1w8wpsnm1yrsk46rgziwiz25h7-linux-pam-1.5.2/lib/haswell", 0x7ffd00bcf5e0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/w4df0h1w8wpsnm1yrsk46rgziwiz25h7-linux-pam-1.5.2/lib/x86_64/libgcrypt.so.20", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/w4df0h1w8wpsnm1yrsk46rgziwiz25h7-linux-pam-1.5.2/lib/x86_64", 0x7ffd00bcf5e0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/w4df0h1w8wpsnm1yrsk46rgziwiz25h7-linux-pam-1.5.2/lib/libgcrypt.so.20", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/w4df0h1w8wpsnm1yrsk46rgziwiz25h7-linux-pam-1.5.2/lib", {st_mode=S_IFDIR|0555, st_size=4096, ...}, 0) = 0
+openat(AT_FDCWD, "/nix/store/g4fha2hi3kd1w8ki9n78g43kl988kq5f-libgcrypt-1.10.1/lib/glibc-hwcaps/x86-64-v3/libgcrypt.so.20", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/g4fha2hi3kd1w8ki9n78g43kl988kq5f-libgcrypt-1.10.1/lib/glibc-hwcaps/x86-64-v3", 0x7ffd00bcf5e0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/g4fha2hi3kd1w8ki9n78g43kl988kq5f-libgcrypt-1.10.1/lib/glibc-hwcaps/x86-64-v2/libgcrypt.so.20", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/g4fha2hi3kd1w8ki9n78g43kl988kq5f-libgcrypt-1.10.1/lib/glibc-hwcaps/x86-64-v2", 0x7ffd00bcf5e0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/g4fha2hi3kd1w8ki9n78g43kl988kq5f-libgcrypt-1.10.1/lib/tls/haswell/x86_64/libgcrypt.so.20", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/g4fha2hi3kd1w8ki9n78g43kl988kq5f-libgcrypt-1.10.1/lib/tls/haswell/x86_64", 0x7ffd00bcf5e0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/g4fha2hi3kd1w8ki9n78g43kl988kq5f-libgcrypt-1.10.1/lib/tls/haswell/libgcrypt.so.20", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/g4fha2hi3kd1w8ki9n78g43kl988kq5f-libgcrypt-1.10.1/lib/tls/haswell", 0x7ffd00bcf5e0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/g4fha2hi3kd1w8ki9n78g43kl988kq5f-libgcrypt-1.10.1/lib/tls/x86_64/libgcrypt.so.20", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/g4fha2hi3kd1w8ki9n78g43kl988kq5f-libgcrypt-1.10.1/lib/tls/x86_64", 0x7ffd00bcf5e0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/g4fha2hi3kd1w8ki9n78g43kl988kq5f-libgcrypt-1.10.1/lib/tls/libgcrypt.so.20", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/g4fha2hi3kd1w8ki9n78g43kl988kq5f-libgcrypt-1.10.1/lib/tls", 0x7ffd00bcf5e0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/g4fha2hi3kd1w8ki9n78g43kl988kq5f-libgcrypt-1.10.1/lib/haswell/x86_64/libgcrypt.so.20", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/g4fha2hi3kd1w8ki9n78g43kl988kq5f-libgcrypt-1.10.1/lib/haswell/x86_64", 0x7ffd00bcf5e0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/g4fha2hi3kd1w8ki9n78g43kl988kq5f-libgcrypt-1.10.1/lib/haswell/libgcrypt.so.20", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/g4fha2hi3kd1w8ki9n78g43kl988kq5f-libgcrypt-1.10.1/lib/haswell", 0x7ffd00bcf5e0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/g4fha2hi3kd1w8ki9n78g43kl988kq5f-libgcrypt-1.10.1/lib/x86_64/libgcrypt.so.20", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/g4fha2hi3kd1w8ki9n78g43kl988kq5f-libgcrypt-1.10.1/lib/x86_64", 0x7ffd00bcf5e0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/g4fha2hi3kd1w8ki9n78g43kl988kq5f-libgcrypt-1.10.1/lib/libgcrypt.so.20", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+pread64(3, "\4\0\0\0 \0\0\0\5\0\0\0GNU\0\1\0\1\300\4\0\0\0\231\0\0\0\0\0\0\0"..., 48, 1294416) = 48
+newfstatat(3, "", {st_mode=S_IFREG|0555, st_size=1431496, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 1336048, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa50ccdd000
+mmap(0x7fa50ccec000, 958464, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xf000) = 0x7fa50ccec000
+mmap(0x7fa50cdd6000, 278528, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xf9000) = 0x7fa50cdd6000
+mmap(0x7fa50ce1a000, 36864, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x13c000) = 0x7fa50ce1a000
+mmap(0x7fa50ce23000, 752, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fa50ce23000
+close(3)                                = 0
+openat(AT_FDCWD, "/nix/store/vamwsqfpvgfwnc7ksa8k4aa52my5r1bq-libxcrypt-4.4.33/lib/libip4tc.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/dnwi357xww3rxdvr79gbvvs8zqm1x47m-acl-2.3.1/lib/libip4tc.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/xp0f72w42ln0qmrgc9pih7yzmk1x817p-kmod-30-lib/lib/libip4tc.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/9vfggw8qmvdxhb1yj9yf8crqndg5xc08-libcap-2.66-lib/lib/libip4tc.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/y4rv9w9arq9fdzbb0rw1kx3rgf6aj909-util-linux-minimal-2.38.1-lib/lib/libip4tc.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/w4df0h1w8wpsnm1yrsk46rgziwiz25h7-linux-pam-1.5.2/lib/libip4tc.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/g4fha2hi3kd1w8ki9n78g43kl988kq5f-libgcrypt-1.10.1/lib/libip4tc.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/zpwhl35d2dkj0p4bli5wp6sw1vfsyab5-openssl-3.0.7/lib/glibc-hwcaps/x86-64-v3/libip4tc.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/zpwhl35d2dkj0p4bli5wp6sw1vfsyab5-openssl-3.0.7/lib/glibc-hwcaps/x86-64-v3", 0x7ffd00bcf5c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/zpwhl35d2dkj0p4bli5wp6sw1vfsyab5-openssl-3.0.7/lib/glibc-hwcaps/x86-64-v2/libip4tc.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/zpwhl35d2dkj0p4bli5wp6sw1vfsyab5-openssl-3.0.7/lib/glibc-hwcaps/x86-64-v2", 0x7ffd00bcf5c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/zpwhl35d2dkj0p4bli5wp6sw1vfsyab5-openssl-3.0.7/lib/tls/haswell/x86_64/libip4tc.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/zpwhl35d2dkj0p4bli5wp6sw1vfsyab5-openssl-3.0.7/lib/tls/haswell/x86_64", 0x7ffd00bcf5c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/zpwhl35d2dkj0p4bli5wp6sw1vfsyab5-openssl-3.0.7/lib/tls/haswell/libip4tc.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/zpwhl35d2dkj0p4bli5wp6sw1vfsyab5-openssl-3.0.7/lib/tls/haswell", 0x7ffd00bcf5c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/zpwhl35d2dkj0p4bli5wp6sw1vfsyab5-openssl-3.0.7/lib/tls/x86_64/libip4tc.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/zpwhl35d2dkj0p4bli5wp6sw1vfsyab5-openssl-3.0.7/lib/tls/x86_64", 0x7ffd00bcf5c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/zpwhl35d2dkj0p4bli5wp6sw1vfsyab5-openssl-3.0.7/lib/tls/libip4tc.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/zpwhl35d2dkj0p4bli5wp6sw1vfsyab5-openssl-3.0.7/lib/tls", 0x7ffd00bcf5c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/zpwhl35d2dkj0p4bli5wp6sw1vfsyab5-openssl-3.0.7/lib/haswell/x86_64/libip4tc.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/zpwhl35d2dkj0p4bli5wp6sw1vfsyab5-openssl-3.0.7/lib/haswell/x86_64", 0x7ffd00bcf5c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/zpwhl35d2dkj0p4bli5wp6sw1vfsyab5-openssl-3.0.7/lib/haswell/libip4tc.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/zpwhl35d2dkj0p4bli5wp6sw1vfsyab5-openssl-3.0.7/lib/haswell", 0x7ffd00bcf5c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/zpwhl35d2dkj0p4bli5wp6sw1vfsyab5-openssl-3.0.7/lib/x86_64/libip4tc.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/zpwhl35d2dkj0p4bli5wp6sw1vfsyab5-openssl-3.0.7/lib/x86_64", 0x7ffd00bcf5c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/zpwhl35d2dkj0p4bli5wp6sw1vfsyab5-openssl-3.0.7/lib/libip4tc.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/zpwhl35d2dkj0p4bli5wp6sw1vfsyab5-openssl-3.0.7/lib", {st_mode=S_IFDIR|0555, st_size=4096, ...}, 0) = 0
+openat(AT_FDCWD, "/nix/store/9vgv9wx5wf0311j8mxb8zkzc873mnicb-zstd-1.5.2/lib/glibc-hwcaps/x86-64-v3/libip4tc.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/9vgv9wx5wf0311j8mxb8zkzc873mnicb-zstd-1.5.2/lib/glibc-hwcaps/x86-64-v3", 0x7ffd00bcf5c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/9vgv9wx5wf0311j8mxb8zkzc873mnicb-zstd-1.5.2/lib/glibc-hwcaps/x86-64-v2/libip4tc.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/9vgv9wx5wf0311j8mxb8zkzc873mnicb-zstd-1.5.2/lib/glibc-hwcaps/x86-64-v2", 0x7ffd00bcf5c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/9vgv9wx5wf0311j8mxb8zkzc873mnicb-zstd-1.5.2/lib/tls/haswell/x86_64/libip4tc.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/9vgv9wx5wf0311j8mxb8zkzc873mnicb-zstd-1.5.2/lib/tls/haswell/x86_64", 0x7ffd00bcf5c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/9vgv9wx5wf0311j8mxb8zkzc873mnicb-zstd-1.5.2/lib/tls/haswell/libip4tc.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/9vgv9wx5wf0311j8mxb8zkzc873mnicb-zstd-1.5.2/lib/tls/haswell", 0x7ffd00bcf5c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/9vgv9wx5wf0311j8mxb8zkzc873mnicb-zstd-1.5.2/lib/tls/x86_64/libip4tc.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/9vgv9wx5wf0311j8mxb8zkzc873mnicb-zstd-1.5.2/lib/tls/x86_64", 0x7ffd00bcf5c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/9vgv9wx5wf0311j8mxb8zkzc873mnicb-zstd-1.5.2/lib/tls/libip4tc.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/9vgv9wx5wf0311j8mxb8zkzc873mnicb-zstd-1.5.2/lib/tls", 0x7ffd00bcf5c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/9vgv9wx5wf0311j8mxb8zkzc873mnicb-zstd-1.5.2/lib/haswell/x86_64/libip4tc.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/9vgv9wx5wf0311j8mxb8zkzc873mnicb-zstd-1.5.2/lib/haswell/x86_64", 0x7ffd00bcf5c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/9vgv9wx5wf0311j8mxb8zkzc873mnicb-zstd-1.5.2/lib/haswell/libip4tc.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/9vgv9wx5wf0311j8mxb8zkzc873mnicb-zstd-1.5.2/lib/haswell", 0x7ffd00bcf5c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/9vgv9wx5wf0311j8mxb8zkzc873mnicb-zstd-1.5.2/lib/x86_64/libip4tc.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/9vgv9wx5wf0311j8mxb8zkzc873mnicb-zstd-1.5.2/lib/x86_64", 0x7ffd00bcf5c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/9vgv9wx5wf0311j8mxb8zkzc873mnicb-zstd-1.5.2/lib/libip4tc.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/9vgv9wx5wf0311j8mxb8zkzc873mnicb-zstd-1.5.2/lib", {st_mode=S_IFDIR|0555, st_size=4096, ...}, 0) = 0
+openat(AT_FDCWD, "/nix/store/vs9ka9s63gg3dypqyfakgry0wbakhzvh-lz4-1.9.4/lib/glibc-hwcaps/x86-64-v3/libip4tc.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/vs9ka9s63gg3dypqyfakgry0wbakhzvh-lz4-1.9.4/lib/glibc-hwcaps/x86-64-v3", 0x7ffd00bcf5c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/vs9ka9s63gg3dypqyfakgry0wbakhzvh-lz4-1.9.4/lib/glibc-hwcaps/x86-64-v2/libip4tc.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/vs9ka9s63gg3dypqyfakgry0wbakhzvh-lz4-1.9.4/lib/glibc-hwcaps/x86-64-v2", 0x7ffd00bcf5c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/vs9ka9s63gg3dypqyfakgry0wbakhzvh-lz4-1.9.4/lib/tls/haswell/x86_64/libip4tc.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/vs9ka9s63gg3dypqyfakgry0wbakhzvh-lz4-1.9.4/lib/tls/haswell/x86_64", 0x7ffd00bcf5c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/vs9ka9s63gg3dypqyfakgry0wbakhzvh-lz4-1.9.4/lib/tls/haswell/libip4tc.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/vs9ka9s63gg3dypqyfakgry0wbakhzvh-lz4-1.9.4/lib/tls/haswell", 0x7ffd00bcf5c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/vs9ka9s63gg3dypqyfakgry0wbakhzvh-lz4-1.9.4/lib/tls/x86_64/libip4tc.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/vs9ka9s63gg3dypqyfakgry0wbakhzvh-lz4-1.9.4/lib/tls/x86_64", 0x7ffd00bcf5c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/vs9ka9s63gg3dypqyfakgry0wbakhzvh-lz4-1.9.4/lib/tls/libip4tc.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/vs9ka9s63gg3dypqyfakgry0wbakhzvh-lz4-1.9.4/lib/tls", 0x7ffd00bcf5c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/vs9ka9s63gg3dypqyfakgry0wbakhzvh-lz4-1.9.4/lib/haswell/x86_64/libip4tc.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/vs9ka9s63gg3dypqyfakgry0wbakhzvh-lz4-1.9.4/lib/haswell/x86_64", 0x7ffd00bcf5c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/vs9ka9s63gg3dypqyfakgry0wbakhzvh-lz4-1.9.4/lib/haswell/libip4tc.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/vs9ka9s63gg3dypqyfakgry0wbakhzvh-lz4-1.9.4/lib/haswell", 0x7ffd00bcf5c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/vs9ka9s63gg3dypqyfakgry0wbakhzvh-lz4-1.9.4/lib/x86_64/libip4tc.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/vs9ka9s63gg3dypqyfakgry0wbakhzvh-lz4-1.9.4/lib/x86_64", 0x7ffd00bcf5c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/vs9ka9s63gg3dypqyfakgry0wbakhzvh-lz4-1.9.4/lib/libip4tc.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/vs9ka9s63gg3dypqyfakgry0wbakhzvh-lz4-1.9.4/lib", {st_mode=S_IFDIR|0555, st_size=4096, ...}, 0) = 0
+openat(AT_FDCWD, "/nix/store/f7cyasjd42qgr2hsr4w28rs4q907fyi1-xz-5.2.9/lib/glibc-hwcaps/x86-64-v3/libip4tc.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/f7cyasjd42qgr2hsr4w28rs4q907fyi1-xz-5.2.9/lib/glibc-hwcaps/x86-64-v3", 0x7ffd00bcf5c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/f7cyasjd42qgr2hsr4w28rs4q907fyi1-xz-5.2.9/lib/glibc-hwcaps/x86-64-v2/libip4tc.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/f7cyasjd42qgr2hsr4w28rs4q907fyi1-xz-5.2.9/lib/glibc-hwcaps/x86-64-v2", 0x7ffd00bcf5c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/f7cyasjd42qgr2hsr4w28rs4q907fyi1-xz-5.2.9/lib/tls/haswell/x86_64/libip4tc.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/f7cyasjd42qgr2hsr4w28rs4q907fyi1-xz-5.2.9/lib/tls/haswell/x86_64", 0x7ffd00bcf5c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/f7cyasjd42qgr2hsr4w28rs4q907fyi1-xz-5.2.9/lib/tls/haswell/libip4tc.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/f7cyasjd42qgr2hsr4w28rs4q907fyi1-xz-5.2.9/lib/tls/haswell", 0x7ffd00bcf5c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/f7cyasjd42qgr2hsr4w28rs4q907fyi1-xz-5.2.9/lib/tls/x86_64/libip4tc.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/f7cyasjd42qgr2hsr4w28rs4q907fyi1-xz-5.2.9/lib/tls/x86_64", 0x7ffd00bcf5c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/f7cyasjd42qgr2hsr4w28rs4q907fyi1-xz-5.2.9/lib/tls/libip4tc.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/f7cyasjd42qgr2hsr4w28rs4q907fyi1-xz-5.2.9/lib/tls", 0x7ffd00bcf5c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/f7cyasjd42qgr2hsr4w28rs4q907fyi1-xz-5.2.9/lib/haswell/x86_64/libip4tc.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/f7cyasjd42qgr2hsr4w28rs4q907fyi1-xz-5.2.9/lib/haswell/x86_64", 0x7ffd00bcf5c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/f7cyasjd42qgr2hsr4w28rs4q907fyi1-xz-5.2.9/lib/haswell/libip4tc.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/f7cyasjd42qgr2hsr4w28rs4q907fyi1-xz-5.2.9/lib/haswell", 0x7ffd00bcf5c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/f7cyasjd42qgr2hsr4w28rs4q907fyi1-xz-5.2.9/lib/x86_64/libip4tc.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/f7cyasjd42qgr2hsr4w28rs4q907fyi1-xz-5.2.9/lib/x86_64", 0x7ffd00bcf5c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/f7cyasjd42qgr2hsr4w28rs4q907fyi1-xz-5.2.9/lib/libip4tc.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/f7cyasjd42qgr2hsr4w28rs4q907fyi1-xz-5.2.9/lib", {st_mode=S_IFDIR|0555, st_size=4096, ...}, 0) = 0
+openat(AT_FDCWD, "/nix/store/mxz7hf6kl565n2cq99smpmyzaz3bp55b-libseccomp-2.5.4-lib/lib/glibc-hwcaps/x86-64-v3/libip4tc.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/mxz7hf6kl565n2cq99smpmyzaz3bp55b-libseccomp-2.5.4-lib/lib/glibc-hwcaps/x86-64-v3", 0x7ffd00bcf5c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/mxz7hf6kl565n2cq99smpmyzaz3bp55b-libseccomp-2.5.4-lib/lib/glibc-hwcaps/x86-64-v2/libip4tc.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/mxz7hf6kl565n2cq99smpmyzaz3bp55b-libseccomp-2.5.4-lib/lib/glibc-hwcaps/x86-64-v2", 0x7ffd00bcf5c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/mxz7hf6kl565n2cq99smpmyzaz3bp55b-libseccomp-2.5.4-lib/lib/tls/haswell/x86_64/libip4tc.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/mxz7hf6kl565n2cq99smpmyzaz3bp55b-libseccomp-2.5.4-lib/lib/tls/haswell/x86_64", 0x7ffd00bcf5c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/mxz7hf6kl565n2cq99smpmyzaz3bp55b-libseccomp-2.5.4-lib/lib/tls/haswell/libip4tc.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/mxz7hf6kl565n2cq99smpmyzaz3bp55b-libseccomp-2.5.4-lib/lib/tls/haswell", 0x7ffd00bcf5c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/mxz7hf6kl565n2cq99smpmyzaz3bp55b-libseccomp-2.5.4-lib/lib/tls/x86_64/libip4tc.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/mxz7hf6kl565n2cq99smpmyzaz3bp55b-libseccomp-2.5.4-lib/lib/tls/x86_64", 0x7ffd00bcf5c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/mxz7hf6kl565n2cq99smpmyzaz3bp55b-libseccomp-2.5.4-lib/lib/tls/libip4tc.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/mxz7hf6kl565n2cq99smpmyzaz3bp55b-libseccomp-2.5.4-lib/lib/tls", 0x7ffd00bcf5c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/mxz7hf6kl565n2cq99smpmyzaz3bp55b-libseccomp-2.5.4-lib/lib/haswell/x86_64/libip4tc.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/mxz7hf6kl565n2cq99smpmyzaz3bp55b-libseccomp-2.5.4-lib/lib/haswell/x86_64", 0x7ffd00bcf5c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/mxz7hf6kl565n2cq99smpmyzaz3bp55b-libseccomp-2.5.4-lib/lib/haswell/libip4tc.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/mxz7hf6kl565n2cq99smpmyzaz3bp55b-libseccomp-2.5.4-lib/lib/haswell", 0x7ffd00bcf5c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/mxz7hf6kl565n2cq99smpmyzaz3bp55b-libseccomp-2.5.4-lib/lib/x86_64/libip4tc.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/mxz7hf6kl565n2cq99smpmyzaz3bp55b-libseccomp-2.5.4-lib/lib/x86_64", 0x7ffd00bcf5c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/mxz7hf6kl565n2cq99smpmyzaz3bp55b-libseccomp-2.5.4-lib/lib/libip4tc.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/mxz7hf6kl565n2cq99smpmyzaz3bp55b-libseccomp-2.5.4-lib/lib", {st_mode=S_IFDIR|0555, st_size=4096, ...}, 0) = 0
+openat(AT_FDCWD, "/nix/store/aqjy01g2qj6a9hp0rkzdsmi8ikw2dz4m-iptables-1.8.8/lib/glibc-hwcaps/x86-64-v3/libip4tc.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/aqjy01g2qj6a9hp0rkzdsmi8ikw2dz4m-iptables-1.8.8/lib/glibc-hwcaps/x86-64-v3", 0x7ffd00bcf5c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/aqjy01g2qj6a9hp0rkzdsmi8ikw2dz4m-iptables-1.8.8/lib/glibc-hwcaps/x86-64-v2/libip4tc.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/aqjy01g2qj6a9hp0rkzdsmi8ikw2dz4m-iptables-1.8.8/lib/glibc-hwcaps/x86-64-v2", 0x7ffd00bcf5c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/aqjy01g2qj6a9hp0rkzdsmi8ikw2dz4m-iptables-1.8.8/lib/tls/haswell/x86_64/libip4tc.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/aqjy01g2qj6a9hp0rkzdsmi8ikw2dz4m-iptables-1.8.8/lib/tls/haswell/x86_64", 0x7ffd00bcf5c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/aqjy01g2qj6a9hp0rkzdsmi8ikw2dz4m-iptables-1.8.8/lib/tls/haswell/libip4tc.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/aqjy01g2qj6a9hp0rkzdsmi8ikw2dz4m-iptables-1.8.8/lib/tls/haswell", 0x7ffd00bcf5c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/aqjy01g2qj6a9hp0rkzdsmi8ikw2dz4m-iptables-1.8.8/lib/tls/x86_64/libip4tc.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/aqjy01g2qj6a9hp0rkzdsmi8ikw2dz4m-iptables-1.8.8/lib/tls/x86_64", 0x7ffd00bcf5c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/aqjy01g2qj6a9hp0rkzdsmi8ikw2dz4m-iptables-1.8.8/lib/tls/libip4tc.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/aqjy01g2qj6a9hp0rkzdsmi8ikw2dz4m-iptables-1.8.8/lib/tls", 0x7ffd00bcf5c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/aqjy01g2qj6a9hp0rkzdsmi8ikw2dz4m-iptables-1.8.8/lib/haswell/x86_64/libip4tc.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/aqjy01g2qj6a9hp0rkzdsmi8ikw2dz4m-iptables-1.8.8/lib/haswell/x86_64", 0x7ffd00bcf5c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/aqjy01g2qj6a9hp0rkzdsmi8ikw2dz4m-iptables-1.8.8/lib/haswell/libip4tc.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/aqjy01g2qj6a9hp0rkzdsmi8ikw2dz4m-iptables-1.8.8/lib/haswell", 0x7ffd00bcf5c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/aqjy01g2qj6a9hp0rkzdsmi8ikw2dz4m-iptables-1.8.8/lib/x86_64/libip4tc.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/aqjy01g2qj6a9hp0rkzdsmi8ikw2dz4m-iptables-1.8.8/lib/x86_64", 0x7ffd00bcf5c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/aqjy01g2qj6a9hp0rkzdsmi8ikw2dz4m-iptables-1.8.8/lib/libip4tc.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+pread64(3, "\4\0\0\0 \0\0\0\5\0\0\0GNU\0\1\0\1\300\4\0\0\0\t\0\0\0\0\0\0\0"..., 48, 28936) = 48
+newfstatat(3, "", {st_mode=S_IFREG|0555, st_size=39080, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa50ccdb000
+mmap(NULL, 37440, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa50ccd1000
+mmap(0x7fa50ccd3000, 16384, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7fa50ccd3000
+mmap(0x7fa50ccd7000, 8192, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6000) = 0x7fa50ccd7000
+mmap(0x7fa50ccd9000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x7000) = 0x7fa50ccd9000
+close(3)                                = 0
+openat(AT_FDCWD, "/nix/store/vamwsqfpvgfwnc7ksa8k4aa52my5r1bq-libxcrypt-4.4.33/lib/libkmod.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/dnwi357xww3rxdvr79gbvvs8zqm1x47m-acl-2.3.1/lib/libkmod.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/xp0f72w42ln0qmrgc9pih7yzmk1x817p-kmod-30-lib/lib/libkmod.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+pread64(3, "\4\0\0\0 \0\0\0\5\0\0\0GNU\0\1\0\1\300\4\0\0\0\t\0\0\0\0\0\0\0"..., 48, 96704) = 48
+newfstatat(3, "", {st_mode=S_IFREG|0555, st_size=121200, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 102480, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa50ccb7000
+mmap(0x7fa50ccbb000, 61440, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x4000) = 0x7fa50ccbb000
+mmap(0x7fa50ccca000, 20480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x13000) = 0x7fa50ccca000
+mmap(0x7fa50cccf000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x18000) = 0x7fa50cccf000
+close(3)                                = 0
+openat(AT_FDCWD, "/nix/store/vamwsqfpvgfwnc7ksa8k4aa52my5r1bq-libxcrypt-4.4.33/lib/liblz4.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/dnwi357xww3rxdvr79gbvvs8zqm1x47m-acl-2.3.1/lib/liblz4.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/xp0f72w42ln0qmrgc9pih7yzmk1x817p-kmod-30-lib/lib/liblz4.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/9vfggw8qmvdxhb1yj9yf8crqndg5xc08-libcap-2.66-lib/lib/liblz4.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/y4rv9w9arq9fdzbb0rw1kx3rgf6aj909-util-linux-minimal-2.38.1-lib/lib/liblz4.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/w4df0h1w8wpsnm1yrsk46rgziwiz25h7-linux-pam-1.5.2/lib/liblz4.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/g4fha2hi3kd1w8ki9n78g43kl988kq5f-libgcrypt-1.10.1/lib/liblz4.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/zpwhl35d2dkj0p4bli5wp6sw1vfsyab5-openssl-3.0.7/lib/liblz4.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/9vgv9wx5wf0311j8mxb8zkzc873mnicb-zstd-1.5.2/lib/liblz4.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/vs9ka9s63gg3dypqyfakgry0wbakhzvh-lz4-1.9.4/lib/liblz4.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+pread64(3, "\4\0\0\0 \0\0\0\5\0\0\0GNU\0\1\0\1\300\4\0\0\0\t\0\0\0\0\0\0\0"..., 48, 211488) = 48
+newfstatat(3, "", {st_mode=S_IFREG|0555, st_size=223816, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 217104, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa50cc81000
+mmap(0x7fa50cc84000, 188416, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x7fa50cc84000
+mmap(0x7fa50ccb2000, 12288, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x31000) = 0x7fa50ccb2000
+mmap(0x7fa50ccb5000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x33000) = 0x7fa50ccb5000
+close(3)                                = 0
+openat(AT_FDCWD, "/nix/store/vamwsqfpvgfwnc7ksa8k4aa52my5r1bq-libxcrypt-4.4.33/lib/libmount.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/dnwi357xww3rxdvr79gbvvs8zqm1x47m-acl-2.3.1/lib/libmount.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/xp0f72w42ln0qmrgc9pih7yzmk1x817p-kmod-30-lib/lib/libmount.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/9vfggw8qmvdxhb1yj9yf8crqndg5xc08-libcap-2.66-lib/lib/libmount.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/y4rv9w9arq9fdzbb0rw1kx3rgf6aj909-util-linux-minimal-2.38.1-lib/lib/libmount.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+newfstatat(3, "", {st_mode=S_IFREG|0555, st_size=451104, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 398776, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa50cc1f000
+mmap(0x7fa50cc2c000, 258048, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xd000) = 0x7fa50cc2c000
+mmap(0x7fa50cc6b000, 77824, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x4c000) = 0x7fa50cc6b000
+mmap(0x7fa50cc7e000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x5f000) = 0x7fa50cc7e000
+close(3)                                = 0
+openat(AT_FDCWD, "/nix/store/vamwsqfpvgfwnc7ksa8k4aa52my5r1bq-libxcrypt-4.4.33/lib/libcrypto.so.3", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/dnwi357xww3rxdvr79gbvvs8zqm1x47m-acl-2.3.1/lib/libcrypto.so.3", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/xp0f72w42ln0qmrgc9pih7yzmk1x817p-kmod-30-lib/lib/libcrypto.so.3", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/9vfggw8qmvdxhb1yj9yf8crqndg5xc08-libcap-2.66-lib/lib/libcrypto.so.3", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/y4rv9w9arq9fdzbb0rw1kx3rgf6aj909-util-linux-minimal-2.38.1-lib/lib/libcrypto.so.3", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/w4df0h1w8wpsnm1yrsk46rgziwiz25h7-linux-pam-1.5.2/lib/libcrypto.so.3", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/g4fha2hi3kd1w8ki9n78g43kl988kq5f-libgcrypt-1.10.1/lib/libcrypto.so.3", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/zpwhl35d2dkj0p4bli5wp6sw1vfsyab5-openssl-3.0.7/lib/libcrypto.so.3", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+newfstatat(3, "", {st_mode=S_IFREG|0555, st_size=5328120, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 4711856, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa50c7a0000
+mmap(0x7fa50c85c000, 2650112, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xbc000) = 0x7fa50c85c000
+mmap(0x7fa50cae3000, 897024, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x343000) = 0x7fa50cae3000
+mmap(0x7fa50cbbe000, 385024, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x41d000) = 0x7fa50cbbe000
+mmap(0x7fa50cc1c000, 9648, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fa50cc1c000
+close(3)                                = 0
+openat(AT_FDCWD, "/nix/store/vamwsqfpvgfwnc7ksa8k4aa52my5r1bq-libxcrypt-4.4.33/lib/libpam.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/dnwi357xww3rxdvr79gbvvs8zqm1x47m-acl-2.3.1/lib/libpam.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/xp0f72w42ln0qmrgc9pih7yzmk1x817p-kmod-30-lib/lib/libpam.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/9vfggw8qmvdxhb1yj9yf8crqndg5xc08-libcap-2.66-lib/lib/libpam.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/y4rv9w9arq9fdzbb0rw1kx3rgf6aj909-util-linux-minimal-2.38.1-lib/lib/libpam.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/w4df0h1w8wpsnm1yrsk46rgziwiz25h7-linux-pam-1.5.2/lib/libpam.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+pread64(3, "\4\0\0\0 \0\0\0\5\0\0\0GNU\0\1\0\1\300\4\0\0\0\t\0\0\0\0\0\0\0"..., 48, 62568) = 48
+newfstatat(3, "", {st_mode=S_IFREG|0555, st_size=75496, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa50c79e000
+mmap(NULL, 69648, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa50c78c000
+mmap(0x7fa50c78f000, 36864, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x7fa50c78f000
+mmap(0x7fa50c798000, 16384, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xc000) = 0x7fa50c798000
+mmap(0x7fa50c79c000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xf000) = 0x7fa50c79c000
+close(3)                                = 0
+openat(AT_FDCWD, "/nix/store/vamwsqfpvgfwnc7ksa8k4aa52my5r1bq-libxcrypt-4.4.33/lib/libseccomp.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/dnwi357xww3rxdvr79gbvvs8zqm1x47m-acl-2.3.1/lib/libseccomp.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/xp0f72w42ln0qmrgc9pih7yzmk1x817p-kmod-30-lib/lib/libseccomp.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/9vfggw8qmvdxhb1yj9yf8crqndg5xc08-libcap-2.66-lib/lib/libseccomp.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/y4rv9w9arq9fdzbb0rw1kx3rgf6aj909-util-linux-minimal-2.38.1-lib/lib/libseccomp.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/w4df0h1w8wpsnm1yrsk46rgziwiz25h7-linux-pam-1.5.2/lib/libseccomp.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/g4fha2hi3kd1w8ki9n78g43kl988kq5f-libgcrypt-1.10.1/lib/libseccomp.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/zpwhl35d2dkj0p4bli5wp6sw1vfsyab5-openssl-3.0.7/lib/libseccomp.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/9vgv9wx5wf0311j8mxb8zkzc873mnicb-zstd-1.5.2/lib/libseccomp.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/vs9ka9s63gg3dypqyfakgry0wbakhzvh-lz4-1.9.4/lib/libseccomp.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/f7cyasjd42qgr2hsr4w28rs4q907fyi1-xz-5.2.9/lib/libseccomp.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/mxz7hf6kl565n2cq99smpmyzaz3bp55b-libseccomp-2.5.4-lib/lib/libseccomp.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+pread64(3, "\4\0\0\0 \0\0\0\5\0\0\0GNU\0\1\0\1\300\4\0\0\0\t\0\0\0\0\0\0\0"..., 48, 121312) = 48
+newfstatat(3, "", {st_mode=S_IFREG|0555, st_size=140080, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 127104, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa50c76c000
+mmap(0x7fa50c76e000, 57344, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7fa50c76e000
+mmap(0x7fa50c77c000, 57344, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x10000) = 0x7fa50c77c000
+mmap(0x7fa50c78a000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1e000) = 0x7fa50c78a000
+close(3)                                = 0
+openat(AT_FDCWD, "/nix/store/vamwsqfpvgfwnc7ksa8k4aa52my5r1bq-libxcrypt-4.4.33/lib/libzstd.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/dnwi357xww3rxdvr79gbvvs8zqm1x47m-acl-2.3.1/lib/libzstd.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/xp0f72w42ln0qmrgc9pih7yzmk1x817p-kmod-30-lib/lib/libzstd.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/9vfggw8qmvdxhb1yj9yf8crqndg5xc08-libcap-2.66-lib/lib/libzstd.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/y4rv9w9arq9fdzbb0rw1kx3rgf6aj909-util-linux-minimal-2.38.1-lib/lib/libzstd.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/w4df0h1w8wpsnm1yrsk46rgziwiz25h7-linux-pam-1.5.2/lib/libzstd.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/g4fha2hi3kd1w8ki9n78g43kl988kq5f-libgcrypt-1.10.1/lib/libzstd.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/zpwhl35d2dkj0p4bli5wp6sw1vfsyab5-openssl-3.0.7/lib/libzstd.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/9vgv9wx5wf0311j8mxb8zkzc873mnicb-zstd-1.5.2/lib/libzstd.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+pread64(3, "\4\0\0\0 \0\0\0\5\0\0\0GNU\0\1\0\1\300\4\0\0\0\t\0\0\0\0\0\0\0"..., 48, 794360) = 48
+newfstatat(3, "", {st_mode=S_IFREG|0555, st_size=839640, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 799096, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa50c6a8000
+mmap(0x7fa50c6b2000, 688128, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xa000) = 0x7fa50c6b2000
+mmap(0x7fa50c75a000, 65536, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xb2000) = 0x7fa50c75a000
+mmap(0x7fa50c76a000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xc2000) = 0x7fa50c76a000
+close(3)                                = 0
+openat(AT_FDCWD, "/nix/store/vamwsqfpvgfwnc7ksa8k4aa52my5r1bq-libxcrypt-4.4.33/lib/liblzma.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/dnwi357xww3rxdvr79gbvvs8zqm1x47m-acl-2.3.1/lib/liblzma.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/xp0f72w42ln0qmrgc9pih7yzmk1x817p-kmod-30-lib/lib/liblzma.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/9vfggw8qmvdxhb1yj9yf8crqndg5xc08-libcap-2.66-lib/lib/liblzma.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/y4rv9w9arq9fdzbb0rw1kx3rgf6aj909-util-linux-minimal-2.38.1-lib/lib/liblzma.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/w4df0h1w8wpsnm1yrsk46rgziwiz25h7-linux-pam-1.5.2/lib/liblzma.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/g4fha2hi3kd1w8ki9n78g43kl988kq5f-libgcrypt-1.10.1/lib/liblzma.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/zpwhl35d2dkj0p4bli5wp6sw1vfsyab5-openssl-3.0.7/lib/liblzma.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/9vgv9wx5wf0311j8mxb8zkzc873mnicb-zstd-1.5.2/lib/liblzma.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/vs9ka9s63gg3dypqyfakgry0wbakhzvh-lz4-1.9.4/lib/liblzma.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/f7cyasjd42qgr2hsr4w28rs4q907fyi1-xz-5.2.9/lib/liblzma.so.5", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+pread64(3, "\4\0\0\0 \0\0\0\5\0\0\0GNU\0\1\0\1\300\4\0\0\0\t\0\0\0\0\0\0\0"..., 48, 158312) = 48
+newfstatat(3, "", {st_mode=S_IFREG|0555, st_size=183744, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 163856, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa50c67f000
+mmap(0x7fa50c683000, 98304, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x4000) = 0x7fa50c683000
+mmap(0x7fa50c69b000, 45056, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1c000) = 0x7fa50c69b000
+mmap(0x7fa50c6a6000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x27000) = 0x7fa50c6a6000
+close(3)                                = 0
+openat(AT_FDCWD, "/nix/store/vamwsqfpvgfwnc7ksa8k4aa52my5r1bq-libxcrypt-4.4.33/lib/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/dnwi357xww3rxdvr79gbvvs8zqm1x47m-acl-2.3.1/lib/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/xp0f72w42ln0qmrgc9pih7yzmk1x817p-kmod-30-lib/lib/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/9vfggw8qmvdxhb1yj9yf8crqndg5xc08-libcap-2.66-lib/lib/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/y4rv9w9arq9fdzbb0rw1kx3rgf6aj909-util-linux-minimal-2.38.1-lib/lib/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/w4df0h1w8wpsnm1yrsk46rgziwiz25h7-linux-pam-1.5.2/lib/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/g4fha2hi3kd1w8ki9n78g43kl988kq5f-libgcrypt-1.10.1/lib/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/zpwhl35d2dkj0p4bli5wp6sw1vfsyab5-openssl-3.0.7/lib/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/9vgv9wx5wf0311j8mxb8zkzc873mnicb-zstd-1.5.2/lib/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/vs9ka9s63gg3dypqyfakgry0wbakhzvh-lz4-1.9.4/lib/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/f7cyasjd42qgr2hsr4w28rs4q907fyi1-xz-5.2.9/lib/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/mxz7hf6kl565n2cq99smpmyzaz3bp55b-libseccomp-2.5.4-lib/lib/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/aqjy01g2qj6a9hp0rkzdsmi8ikw2dz4m-iptables-1.8.8/lib/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/ayfr5l52xkqqjn3n4h9jfacgnchz1z7s-glibc-2.35-224/lib/libm.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+newfstatat(3, "", {st_mode=S_IFREG|0555, st_size=1000768, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 913432, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa50c59f000
+mmap(0x7fa50c5ad000, 471040, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xe000) = 0x7fa50c5ad000
+mmap(0x7fa50c620000, 380928, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x81000) = 0x7fa50c620000
+mmap(0x7fa50c67d000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xdd000) = 0x7fa50c67d000
+close(3)                                = 0
+openat(AT_FDCWD, "/nix/store/3nxvwpxmvv5sv2bb88plhs4ys1jl0bmm-attr-2.5.1/lib/glibc-hwcaps/x86-64-v3/libattr.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/3nxvwpxmvv5sv2bb88plhs4ys1jl0bmm-attr-2.5.1/lib/glibc-hwcaps/x86-64-v3", 0x7ffd00bcf460, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/3nxvwpxmvv5sv2bb88plhs4ys1jl0bmm-attr-2.5.1/lib/glibc-hwcaps/x86-64-v2/libattr.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/3nxvwpxmvv5sv2bb88plhs4ys1jl0bmm-attr-2.5.1/lib/glibc-hwcaps/x86-64-v2", 0x7ffd00bcf460, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/3nxvwpxmvv5sv2bb88plhs4ys1jl0bmm-attr-2.5.1/lib/tls/haswell/x86_64/libattr.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/3nxvwpxmvv5sv2bb88plhs4ys1jl0bmm-attr-2.5.1/lib/tls/haswell/x86_64", 0x7ffd00bcf460, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/3nxvwpxmvv5sv2bb88plhs4ys1jl0bmm-attr-2.5.1/lib/tls/haswell/libattr.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/3nxvwpxmvv5sv2bb88plhs4ys1jl0bmm-attr-2.5.1/lib/tls/haswell", 0x7ffd00bcf460, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/3nxvwpxmvv5sv2bb88plhs4ys1jl0bmm-attr-2.5.1/lib/tls/x86_64/libattr.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/3nxvwpxmvv5sv2bb88plhs4ys1jl0bmm-attr-2.5.1/lib/tls/x86_64", 0x7ffd00bcf460, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/3nxvwpxmvv5sv2bb88plhs4ys1jl0bmm-attr-2.5.1/lib/tls/libattr.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/3nxvwpxmvv5sv2bb88plhs4ys1jl0bmm-attr-2.5.1/lib/tls", 0x7ffd00bcf460, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/3nxvwpxmvv5sv2bb88plhs4ys1jl0bmm-attr-2.5.1/lib/haswell/x86_64/libattr.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/3nxvwpxmvv5sv2bb88plhs4ys1jl0bmm-attr-2.5.1/lib/haswell/x86_64", 0x7ffd00bcf460, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/3nxvwpxmvv5sv2bb88plhs4ys1jl0bmm-attr-2.5.1/lib/haswell/libattr.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/3nxvwpxmvv5sv2bb88plhs4ys1jl0bmm-attr-2.5.1/lib/haswell", 0x7ffd00bcf460, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/3nxvwpxmvv5sv2bb88plhs4ys1jl0bmm-attr-2.5.1/lib/x86_64/libattr.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/3nxvwpxmvv5sv2bb88plhs4ys1jl0bmm-attr-2.5.1/lib/x86_64", 0x7ffd00bcf460, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/3nxvwpxmvv5sv2bb88plhs4ys1jl0bmm-attr-2.5.1/lib/libattr.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+pread64(3, "\4\0\0\0 \0\0\0\5\0\0\0GNU\0\1\0\1\300\4\0\0\0\1\0\0\0\0\0\0\0"..., 48, 22552) = 48
+newfstatat(3, "", {st_mode=S_IFREG|0555, st_size=31272, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 28696, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa50c597000
+mmap(0x7fa50c599000, 12288, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7fa50c599000
+mmap(0x7fa50c59c000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x5000) = 0x7fa50c59c000
+mmap(0x7fa50c59d000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x5000) = 0x7fa50c59d000
+close(3)                                = 0
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa50c595000
+openat(AT_FDCWD, "/nix/store/6ify0nk0fva85brgn3ylgbzmh9d03alm-libgpg-error-1.45/lib/glibc-hwcaps/x86-64-v3/libgpg-error.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/6ify0nk0fva85brgn3ylgbzmh9d03alm-libgpg-error-1.45/lib/glibc-hwcaps/x86-64-v3", 0x7ffd00bcf440, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/6ify0nk0fva85brgn3ylgbzmh9d03alm-libgpg-error-1.45/lib/glibc-hwcaps/x86-64-v2/libgpg-error.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/6ify0nk0fva85brgn3ylgbzmh9d03alm-libgpg-error-1.45/lib/glibc-hwcaps/x86-64-v2", 0x7ffd00bcf440, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/6ify0nk0fva85brgn3ylgbzmh9d03alm-libgpg-error-1.45/lib/tls/haswell/x86_64/libgpg-error.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/6ify0nk0fva85brgn3ylgbzmh9d03alm-libgpg-error-1.45/lib/tls/haswell/x86_64", 0x7ffd00bcf440, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/6ify0nk0fva85brgn3ylgbzmh9d03alm-libgpg-error-1.45/lib/tls/haswell/libgpg-error.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/6ify0nk0fva85brgn3ylgbzmh9d03alm-libgpg-error-1.45/lib/tls/haswell", 0x7ffd00bcf440, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/6ify0nk0fva85brgn3ylgbzmh9d03alm-libgpg-error-1.45/lib/tls/x86_64/libgpg-error.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/6ify0nk0fva85brgn3ylgbzmh9d03alm-libgpg-error-1.45/lib/tls/x86_64", 0x7ffd00bcf440, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/6ify0nk0fva85brgn3ylgbzmh9d03alm-libgpg-error-1.45/lib/tls/libgpg-error.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/6ify0nk0fva85brgn3ylgbzmh9d03alm-libgpg-error-1.45/lib/tls", 0x7ffd00bcf440, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/6ify0nk0fva85brgn3ylgbzmh9d03alm-libgpg-error-1.45/lib/haswell/x86_64/libgpg-error.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/6ify0nk0fva85brgn3ylgbzmh9d03alm-libgpg-error-1.45/lib/haswell/x86_64", 0x7ffd00bcf440, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/6ify0nk0fva85brgn3ylgbzmh9d03alm-libgpg-error-1.45/lib/haswell/libgpg-error.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/6ify0nk0fva85brgn3ylgbzmh9d03alm-libgpg-error-1.45/lib/haswell", 0x7ffd00bcf440, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/6ify0nk0fva85brgn3ylgbzmh9d03alm-libgpg-error-1.45/lib/x86_64/libgpg-error.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/6ify0nk0fva85brgn3ylgbzmh9d03alm-libgpg-error-1.45/lib/x86_64", 0x7ffd00bcf440, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/6ify0nk0fva85brgn3ylgbzmh9d03alm-libgpg-error-1.45/lib/libgpg-error.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+pread64(3, "\4\0\0\0 \0\0\0\5\0\0\0GNU\0\1\0\1\300\4\0\0\0\v\0\0\0\0\0\0\0"..., 48, 156808) = 48
+newfstatat(3, "", {st_mode=S_IFREG|0555, st_size=184600, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 164304, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa50c56c000
+mmap(0x7fa50c571000, 94208, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x5000) = 0x7fa50c571000
+mmap(0x7fa50c588000, 45056, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1c000) = 0x7fa50c588000
+mmap(0x7fa50c593000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x26000) = 0x7fa50c593000
+close(3)                                = 0
+openat(AT_FDCWD, "/nix/store/jvb8fp1bjjws30wz76vgadzq77yp0as6-libmnl-1.0.5/lib/glibc-hwcaps/x86-64-v3/libpcap.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/jvb8fp1bjjws30wz76vgadzq77yp0as6-libmnl-1.0.5/lib/glibc-hwcaps/x86-64-v3", 0x7ffd00bcf420, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/jvb8fp1bjjws30wz76vgadzq77yp0as6-libmnl-1.0.5/lib/glibc-hwcaps/x86-64-v2/libpcap.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/jvb8fp1bjjws30wz76vgadzq77yp0as6-libmnl-1.0.5/lib/glibc-hwcaps/x86-64-v2", 0x7ffd00bcf420, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/jvb8fp1bjjws30wz76vgadzq77yp0as6-libmnl-1.0.5/lib/tls/haswell/x86_64/libpcap.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/jvb8fp1bjjws30wz76vgadzq77yp0as6-libmnl-1.0.5/lib/tls/haswell/x86_64", 0x7ffd00bcf420, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/jvb8fp1bjjws30wz76vgadzq77yp0as6-libmnl-1.0.5/lib/tls/haswell/libpcap.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/jvb8fp1bjjws30wz76vgadzq77yp0as6-libmnl-1.0.5/lib/tls/haswell", 0x7ffd00bcf420, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/jvb8fp1bjjws30wz76vgadzq77yp0as6-libmnl-1.0.5/lib/tls/x86_64/libpcap.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/jvb8fp1bjjws30wz76vgadzq77yp0as6-libmnl-1.0.5/lib/tls/x86_64", 0x7ffd00bcf420, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/jvb8fp1bjjws30wz76vgadzq77yp0as6-libmnl-1.0.5/lib/tls/libpcap.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/jvb8fp1bjjws30wz76vgadzq77yp0as6-libmnl-1.0.5/lib/tls", 0x7ffd00bcf420, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/jvb8fp1bjjws30wz76vgadzq77yp0as6-libmnl-1.0.5/lib/haswell/x86_64/libpcap.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/jvb8fp1bjjws30wz76vgadzq77yp0as6-libmnl-1.0.5/lib/haswell/x86_64", 0x7ffd00bcf420, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/jvb8fp1bjjws30wz76vgadzq77yp0as6-libmnl-1.0.5/lib/haswell/libpcap.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/jvb8fp1bjjws30wz76vgadzq77yp0as6-libmnl-1.0.5/lib/haswell", 0x7ffd00bcf420, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/jvb8fp1bjjws30wz76vgadzq77yp0as6-libmnl-1.0.5/lib/x86_64/libpcap.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/jvb8fp1bjjws30wz76vgadzq77yp0as6-libmnl-1.0.5/lib/x86_64", 0x7ffd00bcf420, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/jvb8fp1bjjws30wz76vgadzq77yp0as6-libmnl-1.0.5/lib/libpcap.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/jvb8fp1bjjws30wz76vgadzq77yp0as6-libmnl-1.0.5/lib", {st_mode=S_IFDIR|0555, st_size=4096, ...}, 0) = 0
+openat(AT_FDCWD, "/nix/store/394228vynnwhqw4mymfly4m25akk44xx-libnftnl-1.2.4/lib/glibc-hwcaps/x86-64-v3/libpcap.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/394228vynnwhqw4mymfly4m25akk44xx-libnftnl-1.2.4/lib/glibc-hwcaps/x86-64-v3", 0x7ffd00bcf420, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/394228vynnwhqw4mymfly4m25akk44xx-libnftnl-1.2.4/lib/glibc-hwcaps/x86-64-v2/libpcap.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/394228vynnwhqw4mymfly4m25akk44xx-libnftnl-1.2.4/lib/glibc-hwcaps/x86-64-v2", 0x7ffd00bcf420, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/394228vynnwhqw4mymfly4m25akk44xx-libnftnl-1.2.4/lib/tls/haswell/x86_64/libpcap.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/394228vynnwhqw4mymfly4m25akk44xx-libnftnl-1.2.4/lib/tls/haswell/x86_64", 0x7ffd00bcf420, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/394228vynnwhqw4mymfly4m25akk44xx-libnftnl-1.2.4/lib/tls/haswell/libpcap.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/394228vynnwhqw4mymfly4m25akk44xx-libnftnl-1.2.4/lib/tls/haswell", 0x7ffd00bcf420, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/394228vynnwhqw4mymfly4m25akk44xx-libnftnl-1.2.4/lib/tls/x86_64/libpcap.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/394228vynnwhqw4mymfly4m25akk44xx-libnftnl-1.2.4/lib/tls/x86_64", 0x7ffd00bcf420, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/394228vynnwhqw4mymfly4m25akk44xx-libnftnl-1.2.4/lib/tls/libpcap.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/394228vynnwhqw4mymfly4m25akk44xx-libnftnl-1.2.4/lib/tls", 0x7ffd00bcf420, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/394228vynnwhqw4mymfly4m25akk44xx-libnftnl-1.2.4/lib/haswell/x86_64/libpcap.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/394228vynnwhqw4mymfly4m25akk44xx-libnftnl-1.2.4/lib/haswell/x86_64", 0x7ffd00bcf420, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/394228vynnwhqw4mymfly4m25akk44xx-libnftnl-1.2.4/lib/haswell/libpcap.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/394228vynnwhqw4mymfly4m25akk44xx-libnftnl-1.2.4/lib/haswell", 0x7ffd00bcf420, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/394228vynnwhqw4mymfly4m25akk44xx-libnftnl-1.2.4/lib/x86_64/libpcap.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/394228vynnwhqw4mymfly4m25akk44xx-libnftnl-1.2.4/lib/x86_64", 0x7ffd00bcf420, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/394228vynnwhqw4mymfly4m25akk44xx-libnftnl-1.2.4/lib/libpcap.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/394228vynnwhqw4mymfly4m25akk44xx-libnftnl-1.2.4/lib", {st_mode=S_IFDIR|0555, st_size=4096, ...}, 0) = 0
+openat(AT_FDCWD, "/nix/store/sl55mq2j5rkx7p6assskl5zyigxvbsrj-libpcap-1.10.1/lib/glibc-hwcaps/x86-64-v3/libpcap.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/sl55mq2j5rkx7p6assskl5zyigxvbsrj-libpcap-1.10.1/lib/glibc-hwcaps/x86-64-v3", 0x7ffd00bcf420, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/sl55mq2j5rkx7p6assskl5zyigxvbsrj-libpcap-1.10.1/lib/glibc-hwcaps/x86-64-v2/libpcap.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/sl55mq2j5rkx7p6assskl5zyigxvbsrj-libpcap-1.10.1/lib/glibc-hwcaps/x86-64-v2", 0x7ffd00bcf420, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/sl55mq2j5rkx7p6assskl5zyigxvbsrj-libpcap-1.10.1/lib/tls/haswell/x86_64/libpcap.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/sl55mq2j5rkx7p6assskl5zyigxvbsrj-libpcap-1.10.1/lib/tls/haswell/x86_64", 0x7ffd00bcf420, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/sl55mq2j5rkx7p6assskl5zyigxvbsrj-libpcap-1.10.1/lib/tls/haswell/libpcap.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/sl55mq2j5rkx7p6assskl5zyigxvbsrj-libpcap-1.10.1/lib/tls/haswell", 0x7ffd00bcf420, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/sl55mq2j5rkx7p6assskl5zyigxvbsrj-libpcap-1.10.1/lib/tls/x86_64/libpcap.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/sl55mq2j5rkx7p6assskl5zyigxvbsrj-libpcap-1.10.1/lib/tls/x86_64", 0x7ffd00bcf420, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/sl55mq2j5rkx7p6assskl5zyigxvbsrj-libpcap-1.10.1/lib/tls/libpcap.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/sl55mq2j5rkx7p6assskl5zyigxvbsrj-libpcap-1.10.1/lib/tls", 0x7ffd00bcf420, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/sl55mq2j5rkx7p6assskl5zyigxvbsrj-libpcap-1.10.1/lib/haswell/x86_64/libpcap.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/sl55mq2j5rkx7p6assskl5zyigxvbsrj-libpcap-1.10.1/lib/haswell/x86_64", 0x7ffd00bcf420, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/sl55mq2j5rkx7p6assskl5zyigxvbsrj-libpcap-1.10.1/lib/haswell/libpcap.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/sl55mq2j5rkx7p6assskl5zyigxvbsrj-libpcap-1.10.1/lib/haswell", 0x7ffd00bcf420, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/sl55mq2j5rkx7p6assskl5zyigxvbsrj-libpcap-1.10.1/lib/x86_64/libpcap.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/sl55mq2j5rkx7p6assskl5zyigxvbsrj-libpcap-1.10.1/lib/x86_64", 0x7ffd00bcf420, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/sl55mq2j5rkx7p6assskl5zyigxvbsrj-libpcap-1.10.1/lib/libpcap.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+pread64(3, "\4\0\0\0 \0\0\0\5\0\0\0GNU\0\1\0\1\300\4\0\0\0\t\0\0\0\0\0\0\0"..., 48, 287440) = 48
+newfstatat(3, "", {st_mode=S_IFREG|0555, st_size=321152, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 299968, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa50c522000
+mmap(0x7fa50c528000, 155648, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6000) = 0x7fa50c528000
+mmap(0x7fa50c54e000, 110592, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2c000) = 0x7fa50c54e000
+mmap(0x7fa50c569000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x46000) = 0x7fa50c569000
+close(3)                                = 0
+openat(AT_FDCWD, "/nix/store/jvb8fp1bjjws30wz76vgadzq77yp0as6-libmnl-1.0.5/lib/libmnl.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+pread64(3, "\4\0\0\0 \0\0\0\5\0\0\0GNU\0\1\0\1\300\4\0\0\0\t\0\0\0\0\0\0\0"..., 48, 20016) = 48
+newfstatat(3, "", {st_mode=S_IFREG|0555, st_size=31776, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 24592, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa50c51b000
+mmap(0x7fa50c51d000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7fa50c51d000
+mmap(0x7fa50c51f000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x4000) = 0x7fa50c51f000
+mmap(0x7fa50c520000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x5000) = 0x7fa50c520000
+close(3)                                = 0
+openat(AT_FDCWD, "/nix/store/jvb8fp1bjjws30wz76vgadzq77yp0as6-libmnl-1.0.5/lib/libnftnl.so.11", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/394228vynnwhqw4mymfly4m25akk44xx-libnftnl-1.2.4/lib/libnftnl.so.11", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+pread64(3, "\4\0\0\0 \0\0\0\5\0\0\0GNU\0\1\0\1\300\4\0\0\0\t\0\0\0\0\0\0\0"..., 48, 188520) = 48
+newfstatat(3, "", {st_mode=S_IFREG|0555, st_size=247200, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 209520, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa50c4e7000
+mmap(0x7fa50c4f1000, 106496, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xa000) = 0x7fa50c4f1000
+mmap(0x7fa50c50b000, 45056, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x24000) = 0x7fa50c50b000
+mmap(0x7fa50c516000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2e000) = 0x7fa50c516000
+close(3)                                = 0
+openat(AT_FDCWD, "/nix/store/ayfr5l52xkqqjn3n4h9jfacgnchz1z7s-glibc-2.35-224/lib/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+newfstatat(3, "", {st_mode=S_IFREG|0555, st_size=15616, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa50c4e5000
+mmap(NULL, 16400, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa50c4e0000
+mmap(0x7fa50c4e1000, 4096, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x7fa50c4e1000
+mmap(0x7fa50c4e2000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7fa50c4e2000
+mmap(0x7fa50c4e3000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7fa50c4e3000
+close(3)                                = 0
+openat(AT_FDCWD, "/nix/store/ayfr5l52xkqqjn3n4h9jfacgnchz1z7s-glibc-2.35-224/lib/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+newfstatat(3, "", {st_mode=S_IFREG|0555, st_size=16464, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 16400, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa50c4db000
+mmap(0x7fa50c4dc000, 4096, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x7fa50c4dc000
+mmap(0x7fa50c4dd000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7fa50c4dd000
+mmap(0x7fa50c4de000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7fa50c4de000
+close(3)                                = 0
+openat(AT_FDCWD, "/nix/store/zrbiza1x78gl404fi7l5fjy8803739dd-audit-2.8.5/lib/glibc-hwcaps/x86-64-v3/libaudit.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/zrbiza1x78gl404fi7l5fjy8803739dd-audit-2.8.5/lib/glibc-hwcaps/x86-64-v3", 0x7ffd00bcf380, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/zrbiza1x78gl404fi7l5fjy8803739dd-audit-2.8.5/lib/glibc-hwcaps/x86-64-v2/libaudit.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/zrbiza1x78gl404fi7l5fjy8803739dd-audit-2.8.5/lib/glibc-hwcaps/x86-64-v2", 0x7ffd00bcf380, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/zrbiza1x78gl404fi7l5fjy8803739dd-audit-2.8.5/lib/tls/haswell/x86_64/libaudit.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/zrbiza1x78gl404fi7l5fjy8803739dd-audit-2.8.5/lib/tls/haswell/x86_64", 0x7ffd00bcf380, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/zrbiza1x78gl404fi7l5fjy8803739dd-audit-2.8.5/lib/tls/haswell/libaudit.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/zrbiza1x78gl404fi7l5fjy8803739dd-audit-2.8.5/lib/tls/haswell", 0x7ffd00bcf380, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/zrbiza1x78gl404fi7l5fjy8803739dd-audit-2.8.5/lib/tls/x86_64/libaudit.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/zrbiza1x78gl404fi7l5fjy8803739dd-audit-2.8.5/lib/tls/x86_64", 0x7ffd00bcf380, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/zrbiza1x78gl404fi7l5fjy8803739dd-audit-2.8.5/lib/tls/libaudit.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/zrbiza1x78gl404fi7l5fjy8803739dd-audit-2.8.5/lib/tls", 0x7ffd00bcf380, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/zrbiza1x78gl404fi7l5fjy8803739dd-audit-2.8.5/lib/haswell/x86_64/libaudit.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/zrbiza1x78gl404fi7l5fjy8803739dd-audit-2.8.5/lib/haswell/x86_64", 0x7ffd00bcf380, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/zrbiza1x78gl404fi7l5fjy8803739dd-audit-2.8.5/lib/haswell/libaudit.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/zrbiza1x78gl404fi7l5fjy8803739dd-audit-2.8.5/lib/haswell", 0x7ffd00bcf380, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/zrbiza1x78gl404fi7l5fjy8803739dd-audit-2.8.5/lib/x86_64/libaudit.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/nix/store/zrbiza1x78gl404fi7l5fjy8803739dd-audit-2.8.5/lib/x86_64", 0x7ffd00bcf380, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/nix/store/zrbiza1x78gl404fi7l5fjy8803739dd-audit-2.8.5/lib/libaudit.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+pread64(3, "\4\0\0\0 \0\0\0\5\0\0\0GNU\0\1\0\1\300\4\0\0\0\t\0\0\0\0\0\0\0"..., 48, 125200) = 48
+newfstatat(3, "", {st_mode=S_IFREG|0555, st_size=144224, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 172200, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa50c4b0000
+mmap(0x7fa50c4b4000, 28672, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x4000) = 0x7fa50c4b4000
+mmap(0x7fa50c4bb000, 81920, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xb000) = 0x7fa50c4bb000
+mmap(0x7fa50c4cf000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1f000) = 0x7fa50c4cf000
+mmap(0x7fa50c4d1000, 37032, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fa50c4d1000
+close(3)                                = 0
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa50c4ae000
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa50c4ac000
+arch_prctl(ARCH_SET_FS, 0x7fa50c4acc40) = 0
+set_tid_address(0x7fa50c4acf10)         = 36063
+set_robust_list(0x7fa50c4acf20, 24)     = 0
+rseq(0x7fa50c4ad5e0, 0x20, 0, 0x53053053) = 0
+mprotect(0x7fa50d0c6000, 16384, PROT_READ) = 0
+mprotect(0x7fa50c4cf000, 4096, PROT_READ) = 0
+mprotect(0x7fa50c4de000, 4096, PROT_READ) = 0
+mprotect(0x7fa50c4e3000, 4096, PROT_READ) = 0
+mprotect(0x7fa50c520000, 4096, PROT_READ) = 0
+mprotect(0x7fa50c516000, 12288, PROT_READ) = 0
+mprotect(0x7fa50c569000, 8192, PROT_READ) = 0
+mprotect(0x7fa50c593000, 4096, PROT_READ) = 0
+mprotect(0x7fa50c59d000, 4096, PROT_READ) = 0
+mprotect(0x7fa50c67d000, 4096, PROT_READ) = 0
+mprotect(0x7fa50c6a6000, 4096, PROT_READ) = 0
+mprotect(0x7fa50c76a000, 4096, PROT_READ) = 0
+mprotect(0x7fa50c78a000, 4096, PROT_READ) = 0
+mprotect(0x7fa50c79c000, 4096, PROT_READ) = 0
+mprotect(0x7fa50cbbe000, 372736, PROT_READ) = 0
+mprotect(0x7fa50cebc000, 24576, PROT_READ) = 0
+mprotect(0x7fa50cc7e000, 8192, PROT_READ) = 0
+mprotect(0x7fa50ccb5000, 4096, PROT_READ) = 0
+mprotect(0x7fa50cccf000, 4096, PROT_READ) = 0
+mprotect(0x7fa50ccd9000, 4096, PROT_READ) = 0
+mprotect(0x7fa50ce1a000, 20480, PROT_READ) = 0
+mprotect(0x7fa50ce55000, 4096, PROT_READ) = 0
+mprotect(0x7fa50ce69000, 4096, PROT_READ) = 0
+mprotect(0x7fa50cecc000, 4096, PROT_READ) = 0
+mprotect(0x7fa50d3e1000, 114688, PROT_READ) = 0
+mprotect(0x564589416000, 4096, PROT_READ) = 0
+mprotect(0x7fa50d437000, 8192, PROT_READ) = 0
+prlimit64(0, RLIMIT_STACK, NULL, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+getrandom("\xba\xbd\xe4\xe8\xea\xb1\x25\x72", 8, GRND_NONBLOCK) = 8
+brk(NULL)                               = 0x5645894b2000
+brk(0x5645894d3000)                     = 0x5645894d3000
+prctl(PR_CAPBSET_READ, CAP_MAC_OVERRIDE) = 1
+prctl(PR_CAPBSET_READ, 0x30 /* CAP_??? */) = -1 EINVAL (Invalid argument)
+prctl(PR_CAPBSET_READ, CAP_CHECKPOINT_RESTORE) = 1
+prctl(PR_CAPBSET_READ, 0x2c /* CAP_??? */) = -1 EINVAL (Invalid argument)
+prctl(PR_CAPBSET_READ, 0x2a /* CAP_??? */) = -1 EINVAL (Invalid argument)
+prctl(PR_CAPBSET_READ, 0x29 /* CAP_??? */) = -1 EINVAL (Invalid argument)
+getpid()                                = 36063
+umask(022)                              = 022
+openat(AT_FDCWD, "/", O_RDONLY|O_CLOEXEC|O_PATH|O_DIRECTORY) = 3
+openat(3, "etc", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 4
+newfstatat(4, "", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+close(3)                                = 0
+openat(4, "sysctl.d", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 3
+newfstatat(3, "", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+close(4)                                = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/", O_RDONLY|O_CLOEXEC|O_PATH|O_DIRECTORY) = 3
+openat(3, "run", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 4
+newfstatat(4, "", {st_mode=S_IFDIR|0755, st_size=500, ...}, AT_EMPTY_PATH) = 0
+close(3)                                = 0
+openat(4, "sysctl.d", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = -1 ENOENT (No such file or directory)
+close(4)                                = 0
+openat(AT_FDCWD, "/", O_RDONLY|O_CLOEXEC|O_PATH|O_DIRECTORY) = 3
+openat(3, "usr", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 4
+newfstatat(4, "", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+close(3)                                = 0
+openat(4, "local", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = -1 ENOENT (No such file or directory)
+close(4)                                = 0
+openat(AT_FDCWD, "/", O_RDONLY|O_CLOEXEC|O_PATH|O_DIRECTORY) = 3
+openat(3, "usr", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 4
+newfstatat(4, "", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+close(3)                                = 0
+openat(4, "lib", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 3
+newfstatat(3, "", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+close(4)                                = 0
+openat(3, "sysctl.d", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = -1 ENOENT (No such file or directory)
+close(3)                                = 0
+openat(AT_FDCWD, "/", O_RDONLY|O_CLOEXEC|O_PATH|O_DIRECTORY) = 3
+openat(3, "nix", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 4
+newfstatat(4, "", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+close(3)                                = 0
+openat(4, "store", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 3
+newfstatat(3, "", {st_mode=S_IFDIR|S_ISVTX|0775, st_size=389120, ...}, AT_EMPTY_PATH) = 0
+close(4)                                = 0
+openat(3, "9rjdvhq7hnzwwhib8na2gmllsrh671xg-systemd-252.1", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 4
+newfstatat(4, "", {st_mode=S_IFDIR|0555, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+close(3)                                = 0
+openat(4, "lib", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 3
+newfstatat(3, "", {st_mode=S_IFDIR|0555, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+close(4)                                = 0
+openat(3, "sysctl.d", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = -1 ENOENT (No such file or directory)
+close(3)                                = 0
+gettid()                                = 36063
+getrandom("\x71\xcc\xa2\xb0\x2f\x28\x9b\xea\xd2\xa5\x45\x7f\x7c\xa7\x42\x8a", 16, GRND_INSECURE) = 16
+futex(0x7fa50d3fe494, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+openat(AT_FDCWD, "/", O_RDONLY|O_CLOEXEC|O_PATH|O_DIRECTORY) = 3
+openat(3, "etc", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 4
+newfstatat(4, "", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+close(3)                                = 0
+openat(4, "sysctl.d", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 3
+newfstatat(3, "", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+close(4)                                = 0
+openat(AT_FDCWD, "/proc/self/fd/3", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 4
+newfstatat(4, "", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+close(3)                                = 0
+getdents64(4, 0x5645894b35c0 /* 5 entries */, 32768) = 168
+getrandom("\xfe\x07\xe7\x35\xef\x76\x56\x3b\x83\xeb\x79\x85\xd5\xf9\x1d\x31", 16, GRND_INSECURE) = 16
+getdents64(4, 0x5645894b35c0 /* 0 entries */, 32768) = 0
+close(4)                                = 0
+openat(AT_FDCWD, "/", O_RDONLY|O_CLOEXEC|O_PATH|O_DIRECTORY) = 3
+openat(3, "run", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 4
+newfstatat(4, "", {st_mode=S_IFDIR|0755, st_size=500, ...}, AT_EMPTY_PATH) = 0
+close(3)                                = 0
+openat(4, "sysctl.d", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = -1 ENOENT (No such file or directory)
+close(4)                                = 0
+openat(AT_FDCWD, "/", O_RDONLY|O_CLOEXEC|O_PATH|O_DIRECTORY) = 3
+openat(3, "usr", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 4
+newfstatat(4, "", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+close(3)                                = 0
+openat(4, "local", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = -1 ENOENT (No such file or directory)
+close(4)                                = 0
+openat(AT_FDCWD, "/", O_RDONLY|O_CLOEXEC|O_PATH|O_DIRECTORY) = 3
+openat(3, "usr", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 4
+newfstatat(4, "", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+close(3)                                = 0
+openat(4, "lib", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 3
+newfstatat(3, "", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+close(4)                                = 0
+openat(3, "sysctl.d", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = -1 ENOENT (No such file or directory)
+close(3)                                = 0
+openat(AT_FDCWD, "/", O_RDONLY|O_CLOEXEC|O_PATH|O_DIRECTORY) = 3
+openat(3, "nix", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 4
+newfstatat(4, "", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+close(3)                                = 0
+openat(4, "store", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 3
+newfstatat(3, "", {st_mode=S_IFDIR|S_ISVTX|0775, st_size=389120, ...}, AT_EMPTY_PATH) = 0
+close(4)                                = 0
+openat(3, "9rjdvhq7hnzwwhib8na2gmllsrh671xg-systemd-252.1", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 4
+newfstatat(4, "", {st_mode=S_IFDIR|0555, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+close(3)                                = 0
+openat(4, "lib", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 3
+newfstatat(3, "", {st_mode=S_IFDIR|0555, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+close(4)                                = 0
+openat(3, "sysctl.d", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = -1 ENOENT (No such file or directory)
+close(3)                                = 0
+openat(AT_FDCWD, "/etc/sysctl.d/50-coredump.conf", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0444, st_size=1869, ...}, AT_EMPTY_PATH) = 0
+read(3, "#  This file is part of systemd."..., 4096) = 1869
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/etc/sysctl.d/50-default.conf", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0444, st_size=1919, ...}, AT_EMPTY_PATH) = 0
+read(3, "#  This file is part of systemd."..., 4096) = 1919
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+getrandom("\x8f\x2b\x11\xf5\xcd\xea\xc1\x80\x7c\xc8\xe5\x91\xd6\x49\xd0\x7f", 16, GRND_INSECURE) = 16
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+getrandom("\x28\x64\x32\x90\x9f\x0b\xcc\x1f\x38\x7d\x17\xb9\x2a\xcb\xb2\x00", 16, GRND_INSECURE) = 16
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+getrandom("\x00\x59\x94\x22\x47\x9f\x0e\xaf\x20\xe6\x46\x11\x1d\x85\x82\x87", 16, GRND_INSECURE) = 16
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/etc/sysctl.d/60-nixos.conf", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0444, st_size=303, ...}, AT_EMPTY_PATH) = 0
+read(3, "kernel.kptr_restrict=1\nkernel.pi"..., 4096) = 303
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(3, TCGETS, 0x7ffd00bd0240)        = -1 ENOTTY (Inappropriate ioctl for device)
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/proc/sys/kernel/core_pattern", O_RDWR|O_NOCTTY|O_CLOEXEC) = -1 EACCES (Permission denied)
+openat(AT_FDCWD, "/proc/sys/kernel/core_pattern", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=0, ...}, AT_EMPTY_PATH) = 0
+read(3, "|/nix/store/dyxmql05ykvhgipv29l0"..., 1024) = 109
+read(3, "", 1024)                       = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/proc/sys/kernel/core_pipe_limit", O_RDWR|O_NOCTTY|O_CLOEXEC) = -1 EACCES (Permission denied)
+openat(AT_FDCWD, "/proc/sys/kernel/core_pipe_limit", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=0, ...}, AT_EMPTY_PATH) = 0
+read(3, "16\n", 1024)                   = 3
+read(3, "", 1024)                       = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/proc/sys/fs/suid_dumpable", O_RDWR|O_NOCTTY|O_CLOEXEC) = -1 EACCES (Permission denied)
+openat(AT_FDCWD, "/proc/sys/fs/suid_dumpable", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=0, ...}, AT_EMPTY_PATH) = 0
+read(3, "2\n", 1024)                    = 2
+read(3, "", 1024)                       = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/proc/sys/kernel/sysrq", O_RDWR|O_NOCTTY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/proc/sys/kernel/sysrq", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+ioctl(1, TCGETS, 0x7ffd00bcf600)        = -1 ENOTTY (Inappropriate ioctl for device)
+writev(2, [{iov_base="", iov_len=0}, {iov_base="Couldn't write '16' to 'kernel/s"..., iov_len=74}, {iov_base="", iov_len=0}, {iov_base="\n", iov_len=1}], 4Couldn't write '16' to 'kernel/sysrq', ignoring: No such file or directory
+) = 75
+openat(AT_FDCWD, "/proc/sys/kernel/core_uses_pid", O_RDWR|O_NOCTTY|O_CLOEXEC) = -1 EACCES (Permission denied)
+openat(AT_FDCWD, "/proc/sys/kernel/core_uses_pid", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=0, ...}, AT_EMPTY_PATH) = 0
+read(3, "1\n", 1024)                    = 2
+read(3, "", 1024)                       = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/proc/sys/net/ipv4/conf/default/rp_filter", O_RDWR|O_NOCTTY|O_CLOEXEC) = -1 EACCES (Permission denied)
+openat(AT_FDCWD, "/proc/sys/net/ipv4/conf/default/rp_filter", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=0, ...}, AT_EMPTY_PATH) = 0
+read(3, "2\n", 1024)                    = 2
+read(3, "", 1024)                       = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/proc/sys/net/ipv4/conf", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+newfstatat(3, "", {st_mode=S_IFDIR|0555, st_size=0, ...}, AT_EMPTY_PATH) = 0
+getdents64(3, 0x5645894bbaa0 /* 11 entries */, 32768) = 304
+getdents64(3, 0x5645894bbaa0 /* 0 entries */, 32768) = 0
+close(3)                                = 0
+newfstatat(AT_FDCWD, "/proc/sys/net/ipv4/conf/all/rp_filter", {st_mode=S_IFREG|0644, st_size=0, ...}, AT_SYMLINK_NOFOLLOW) = 0
+newfstatat(AT_FDCWD, "/proc/sys/net/ipv4/conf/bond0/rp_filter", {st_mode=S_IFREG|0644, st_size=0, ...}, AT_SYMLINK_NOFOLLOW) = 0
+newfstatat(AT_FDCWD, "/proc/sys/net/ipv4/conf/default/rp_filter", {st_mode=S_IFREG|0644, st_size=0, ...}, AT_SYMLINK_NOFOLLOW) = 0
+newfstatat(AT_FDCWD, "/proc/sys/net/ipv4/conf/docker0/rp_filter", {st_mode=S_IFREG|0644, st_size=0, ...}, AT_SYMLINK_NOFOLLOW) = 0
+newfstatat(AT_FDCWD, "/proc/sys/net/ipv4/conf/dummy0/rp_filter", {st_mode=S_IFREG|0644, st_size=0, ...}, AT_SYMLINK_NOFOLLOW) = 0
+newfstatat(AT_FDCWD, "/proc/sys/net/ipv4/conf/eth0/rp_filter", {st_mode=S_IFREG|0644, st_size=0, ...}, AT_SYMLINK_NOFOLLOW) = 0
+newfstatat(AT_FDCWD, "/proc/sys/net/ipv4/conf/lo/rp_filter", {st_mode=S_IFREG|0644, st_size=0, ...}, AT_SYMLINK_NOFOLLOW) = 0
+newfstatat(AT_FDCWD, "/proc/sys/net/ipv4/conf/sit0/rp_filter", {st_mode=S_IFREG|0644, st_size=0, ...}, AT_SYMLINK_NOFOLLOW) = 0
+newfstatat(AT_FDCWD, "/proc/sys/net/ipv4/conf/tunl0/rp_filter", {st_mode=S_IFREG|0644, st_size=0, ...}, AT_SYMLINK_NOFOLLOW) = 0
+openat(AT_FDCWD, "/proc/sys/net/ipv4/conf/bond0/rp_filter", O_RDWR|O_NOCTTY|O_CLOEXEC) = -1 EACCES (Permission denied)
+openat(AT_FDCWD, "/proc/sys/net/ipv4/conf/bond0/rp_filter", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=0, ...}, AT_EMPTY_PATH) = 0
+read(3, "2\n", 1024)                    = 2
+read(3, "", 1024)                       = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/proc/sys/net/ipv4/conf/docker0/rp_filter", O_RDWR|O_NOCTTY|O_CLOEXEC) = -1 EACCES (Permission denied)
+openat(AT_FDCWD, "/proc/sys/net/ipv4/conf/docker0/rp_filter", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=0, ...}, AT_EMPTY_PATH) = 0
+read(3, "2\n", 1024)                    = 2
+read(3, "", 1024)                       = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/proc/sys/net/ipv4/conf/dummy0/rp_filter", O_RDWR|O_NOCTTY|O_CLOEXEC) = -1 EACCES (Permission denied)
+openat(AT_FDCWD, "/proc/sys/net/ipv4/conf/dummy0/rp_filter", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=0, ...}, AT_EMPTY_PATH) = 0
+read(3, "2\n", 1024)                    = 2
+read(3, "", 1024)                       = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/proc/sys/net/ipv4/conf/eth0/rp_filter", O_RDWR|O_NOCTTY|O_CLOEXEC) = -1 EACCES (Permission denied)
+openat(AT_FDCWD, "/proc/sys/net/ipv4/conf/eth0/rp_filter", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=0, ...}, AT_EMPTY_PATH) = 0
+read(3, "2\n", 1024)                    = 2
+read(3, "", 1024)                       = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/proc/sys/net/ipv4/conf/lo/rp_filter", O_RDWR|O_NOCTTY|O_CLOEXEC) = -1 EACCES (Permission denied)
+openat(AT_FDCWD, "/proc/sys/net/ipv4/conf/lo/rp_filter", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=0, ...}, AT_EMPTY_PATH) = 0
+read(3, "2\n", 1024)                    = 2
+read(3, "", 1024)                       = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/proc/sys/net/ipv4/conf/sit0/rp_filter", O_RDWR|O_NOCTTY|O_CLOEXEC) = -1 EACCES (Permission denied)
+openat(AT_FDCWD, "/proc/sys/net/ipv4/conf/sit0/rp_filter", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=0, ...}, AT_EMPTY_PATH) = 0
+read(3, "2\n", 1024)                    = 2
+read(3, "", 1024)                       = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/proc/sys/net/ipv4/conf/tunl0/rp_filter", O_RDWR|O_NOCTTY|O_CLOEXEC) = -1 EACCES (Permission denied)
+openat(AT_FDCWD, "/proc/sys/net/ipv4/conf/tunl0/rp_filter", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=0, ...}, AT_EMPTY_PATH) = 0
+read(3, "2\n", 1024)                    = 2
+read(3, "", 1024)                       = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/proc/sys/net/ipv4/conf/default/accept_source_route", O_RDWR|O_NOCTTY|O_CLOEXEC) = -1 EACCES (Permission denied)
+openat(AT_FDCWD, "/proc/sys/net/ipv4/conf/default/accept_source_route", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=0, ...}, AT_EMPTY_PATH) = 0
+read(3, "0\n", 1024)                    = 2
+read(3, "", 1024)                       = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/proc/sys/net/ipv4/conf", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+newfstatat(3, "", {st_mode=S_IFDIR|0555, st_size=0, ...}, AT_EMPTY_PATH) = 0
+getdents64(3, 0x5645894bbaa0 /* 11 entries */, 32768) = 304
+getdents64(3, 0x5645894bbaa0 /* 0 entries */, 32768) = 0
+close(3)                                = 0
+newfstatat(AT_FDCWD, "/proc/sys/net/ipv4/conf/all/accept_source_route", {st_mode=S_IFREG|0644, st_size=0, ...}, AT_SYMLINK_NOFOLLOW) = 0
+newfstatat(AT_FDCWD, "/proc/sys/net/ipv4/conf/bond0/accept_source_route", {st_mode=S_IFREG|0644, st_size=0, ...}, AT_SYMLINK_NOFOLLOW) = 0
+newfstatat(AT_FDCWD, "/proc/sys/net/ipv4/conf/default/accept_source_route", {st_mode=S_IFREG|0644, st_size=0, ...}, AT_SYMLINK_NOFOLLOW) = 0
+newfstatat(AT_FDCWD, "/proc/sys/net/ipv4/conf/docker0/accept_source_route", {st_mode=S_IFREG|0644, st_size=0, ...}, AT_SYMLINK_NOFOLLOW) = 0
+newfstatat(AT_FDCWD, "/proc/sys/net/ipv4/conf/dummy0/accept_source_route", {st_mode=S_IFREG|0644, st_size=0, ...}, AT_SYMLINK_NOFOLLOW) = 0
+newfstatat(AT_FDCWD, "/proc/sys/net/ipv4/conf/eth0/accept_source_route", {st_mode=S_IFREG|0644, st_size=0, ...}, AT_SYMLINK_NOFOLLOW) = 0
+newfstatat(AT_FDCWD, "/proc/sys/net/ipv4/conf/lo/accept_source_route", {st_mode=S_IFREG|0644, st_size=0, ...}, AT_SYMLINK_NOFOLLOW) = 0
+newfstatat(AT_FDCWD, "/proc/sys/net/ipv4/conf/sit0/accept_source_route", {st_mode=S_IFREG|0644, st_size=0, ...}, AT_SYMLINK_NOFOLLOW) = 0
+newfstatat(AT_FDCWD, "/proc/sys/net/ipv4/conf/tunl0/accept_source_route", {st_mode=S_IFREG|0644, st_size=0, ...}, AT_SYMLINK_NOFOLLOW) = 0
+openat(AT_FDCWD, "/proc/sys/net/ipv4/conf/bond0/accept_source_route", O_RDWR|O_NOCTTY|O_CLOEXEC) = -1 EACCES (Permission denied)
+openat(AT_FDCWD, "/proc/sys/net/ipv4/conf/bond0/accept_source_route", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=0, ...}, AT_EMPTY_PATH) = 0
+read(3, "0\n", 1024)                    = 2
+read(3, "", 1024)                       = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/proc/sys/net/ipv4/conf/docker0/accept_source_route", O_RDWR|O_NOCTTY|O_CLOEXEC) = -1 EACCES (Permission denied)
+openat(AT_FDCWD, "/proc/sys/net/ipv4/conf/docker0/accept_source_route", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=0, ...}, AT_EMPTY_PATH) = 0
+read(3, "0\n", 1024)                    = 2
+read(3, "", 1024)                       = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/proc/sys/net/ipv4/conf/dummy0/accept_source_route", O_RDWR|O_NOCTTY|O_CLOEXEC) = -1 EACCES (Permission denied)
+openat(AT_FDCWD, "/proc/sys/net/ipv4/conf/dummy0/accept_source_route", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=0, ...}, AT_EMPTY_PATH) = 0
+read(3, "0\n", 1024)                    = 2
+read(3, "", 1024)                       = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/proc/sys/net/ipv4/conf/eth0/accept_source_route", O_RDWR|O_NOCTTY|O_CLOEXEC) = -1 EACCES (Permission denied)
+openat(AT_FDCWD, "/proc/sys/net/ipv4/conf/eth0/accept_source_route", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=0, ...}, AT_EMPTY_PATH) = 0
+read(3, "0\n", 1024)                    = 2
+read(3, "", 1024)                       = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/proc/sys/net/ipv4/conf/lo/accept_source_route", O_RDWR|O_NOCTTY|O_CLOEXEC) = -1 EACCES (Permission denied)
+openat(AT_FDCWD, "/proc/sys/net/ipv4/conf/lo/accept_source_route", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=0, ...}, AT_EMPTY_PATH) = 0
+read(3, "0\n", 1024)                    = 2
+read(3, "", 1024)                       = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/proc/sys/net/ipv4/conf/sit0/accept_source_route", O_RDWR|O_NOCTTY|O_CLOEXEC) = -1 EACCES (Permission denied)
+openat(AT_FDCWD, "/proc/sys/net/ipv4/conf/sit0/accept_source_route", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=0, ...}, AT_EMPTY_PATH) = 0
+read(3, "0\n", 1024)                    = 2
+read(3, "", 1024)                       = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/proc/sys/net/ipv4/conf/tunl0/accept_source_route", O_RDWR|O_NOCTTY|O_CLOEXEC) = -1 EACCES (Permission denied)
+openat(AT_FDCWD, "/proc/sys/net/ipv4/conf/tunl0/accept_source_route", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=0, ...}, AT_EMPTY_PATH) = 0
+read(3, "0\n", 1024)                    = 2
+read(3, "", 1024)                       = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/proc/sys/net/ipv4/conf/default/promote_secondaries", O_RDWR|O_NOCTTY|O_CLOEXEC) = -1 EACCES (Permission denied)
+openat(AT_FDCWD, "/proc/sys/net/ipv4/conf/default/promote_secondaries", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=0, ...}, AT_EMPTY_PATH) = 0
+read(3, "1\n", 1024)                    = 2
+read(3, "", 1024)                       = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/proc/sys/net/ipv4/conf", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+newfstatat(3, "", {st_mode=S_IFDIR|0555, st_size=0, ...}, AT_EMPTY_PATH) = 0
+getdents64(3, 0x5645894bbaa0 /* 11 entries */, 32768) = 304
+getdents64(3, 0x5645894bbaa0 /* 0 entries */, 32768) = 0
+close(3)                                = 0
+newfstatat(AT_FDCWD, "/proc/sys/net/ipv4/conf/all/promote_secondaries", {st_mode=S_IFREG|0644, st_size=0, ...}, AT_SYMLINK_NOFOLLOW) = 0
+newfstatat(AT_FDCWD, "/proc/sys/net/ipv4/conf/bond0/promote_secondaries", {st_mode=S_IFREG|0644, st_size=0, ...}, AT_SYMLINK_NOFOLLOW) = 0
+newfstatat(AT_FDCWD, "/proc/sys/net/ipv4/conf/default/promote_secondaries", {st_mode=S_IFREG|0644, st_size=0, ...}, AT_SYMLINK_NOFOLLOW) = 0
+newfstatat(AT_FDCWD, "/proc/sys/net/ipv4/conf/docker0/promote_secondaries", {st_mode=S_IFREG|0644, st_size=0, ...}, AT_SYMLINK_NOFOLLOW) = 0
+newfstatat(AT_FDCWD, "/proc/sys/net/ipv4/conf/dummy0/promote_secondaries", {st_mode=S_IFREG|0644, st_size=0, ...}, AT_SYMLINK_NOFOLLOW) = 0
+newfstatat(AT_FDCWD, "/proc/sys/net/ipv4/conf/eth0/promote_secondaries", {st_mode=S_IFREG|0644, st_size=0, ...}, AT_SYMLINK_NOFOLLOW) = 0
+newfstatat(AT_FDCWD, "/proc/sys/net/ipv4/conf/lo/promote_secondaries", {st_mode=S_IFREG|0644, st_size=0, ...}, AT_SYMLINK_NOFOLLOW) = 0
+newfstatat(AT_FDCWD, "/proc/sys/net/ipv4/conf/sit0/promote_secondaries", {st_mode=S_IFREG|0644, st_size=0, ...}, AT_SYMLINK_NOFOLLOW) = 0
+newfstatat(AT_FDCWD, "/proc/sys/net/ipv4/conf/tunl0/promote_secondaries", {st_mode=S_IFREG|0644, st_size=0, ...}, AT_SYMLINK_NOFOLLOW) = 0
+openat(AT_FDCWD, "/proc/sys/net/ipv4/conf/bond0/promote_secondaries", O_RDWR|O_NOCTTY|O_CLOEXEC) = -1 EACCES (Permission denied)
+openat(AT_FDCWD, "/proc/sys/net/ipv4/conf/bond0/promote_secondaries", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=0, ...}, AT_EMPTY_PATH) = 0
+read(3, "1\n", 1024)                    = 2
+read(3, "", 1024)                       = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/proc/sys/net/ipv4/conf/docker0/promote_secondaries", O_RDWR|O_NOCTTY|O_CLOEXEC) = -1 EACCES (Permission denied)
+openat(AT_FDCWD, "/proc/sys/net/ipv4/conf/docker0/promote_secondaries", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=0, ...}, AT_EMPTY_PATH) = 0
+read(3, "1\n", 1024)                    = 2
+read(3, "", 1024)                       = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/proc/sys/net/ipv4/conf/dummy0/promote_secondaries", O_RDWR|O_NOCTTY|O_CLOEXEC) = -1 EACCES (Permission denied)
+openat(AT_FDCWD, "/proc/sys/net/ipv4/conf/dummy0/promote_secondaries", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=0, ...}, AT_EMPTY_PATH) = 0
+read(3, "1\n", 1024)                    = 2
+read(3, "", 1024)                       = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/proc/sys/net/ipv4/conf/eth0/promote_secondaries", O_RDWR|O_NOCTTY|O_CLOEXEC) = -1 EACCES (Permission denied)
+openat(AT_FDCWD, "/proc/sys/net/ipv4/conf/eth0/promote_secondaries", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=0, ...}, AT_EMPTY_PATH) = 0
+read(3, "1\n", 1024)                    = 2
+read(3, "", 1024)                       = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/proc/sys/net/ipv4/conf/lo/promote_secondaries", O_RDWR|O_NOCTTY|O_CLOEXEC) = -1 EACCES (Permission denied)
+openat(AT_FDCWD, "/proc/sys/net/ipv4/conf/lo/promote_secondaries", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=0, ...}, AT_EMPTY_PATH) = 0
+read(3, "1\n", 1024)                    = 2
+read(3, "", 1024)                       = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/proc/sys/net/ipv4/conf/sit0/promote_secondaries", O_RDWR|O_NOCTTY|O_CLOEXEC) = -1 EACCES (Permission denied)
+openat(AT_FDCWD, "/proc/sys/net/ipv4/conf/sit0/promote_secondaries", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=0, ...}, AT_EMPTY_PATH) = 0
+read(3, "1\n", 1024)                    = 2
+read(3, "", 1024)                       = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/proc/sys/net/ipv4/conf/tunl0/promote_secondaries", O_RDWR|O_NOCTTY|O_CLOEXEC) = -1 EACCES (Permission denied)
+openat(AT_FDCWD, "/proc/sys/net/ipv4/conf/tunl0/promote_secondaries", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=0, ...}, AT_EMPTY_PATH) = 0
+read(3, "1\n", 1024)                    = 2
+read(3, "", 1024)                       = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/proc/sys/net/ipv4/ping_group_range", O_RDWR|O_NOCTTY|O_CLOEXEC) = -1 EACCES (Permission denied)
+openat(AT_FDCWD, "/proc/sys/net/ipv4/ping_group_range", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=0, ...}, AT_EMPTY_PATH) = 0
+read(3, "0\t2147483647\n", 1024)        = 13
+read(3, "", 1024)                       = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/proc/sys/net/core/default_qdisc", O_RDWR|O_NOCTTY|O_CLOEXEC) = -1 EACCES (Permission denied)
+openat(AT_FDCWD, "/proc/sys/net/core/default_qdisc", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=0, ...}, AT_EMPTY_PATH) = 0
+read(3, "fq_codel\n", 1024)             = 9
+read(3, "", 1024)                       = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/proc/sys/fs/protected_hardlinks", O_RDWR|O_NOCTTY|O_CLOEXEC) = -1 EACCES (Permission denied)
+openat(AT_FDCWD, "/proc/sys/fs/protected_hardlinks", O_RDONLY|O_CLOEXEC) = -1 EACCES (Permission denied)
+openat(AT_FDCWD, "/proc/sys/fs/protected_symlinks", O_RDWR|O_NOCTTY|O_CLOEXEC) = -1 EACCES (Permission denied)
+openat(AT_FDCWD, "/proc/sys/fs/protected_symlinks", O_RDONLY|O_CLOEXEC) = -1 EACCES (Permission denied)
+openat(AT_FDCWD, "/proc/sys/fs/protected_regular", O_RDWR|O_NOCTTY|O_CLOEXEC) = -1 EACCES (Permission denied)
+openat(AT_FDCWD, "/proc/sys/fs/protected_regular", O_RDONLY|O_CLOEXEC) = -1 EACCES (Permission denied)
+openat(AT_FDCWD, "/proc/sys/fs/protected_fifos", O_RDWR|O_NOCTTY|O_CLOEXEC) = -1 EACCES (Permission denied)
+openat(AT_FDCWD, "/proc/sys/fs/protected_fifos", O_RDONLY|O_CLOEXEC) = -1 EACCES (Permission denied)
+openat(AT_FDCWD, "/proc/sys/kernel/kptr_restrict", O_RDWR|O_NOCTTY|O_CLOEXEC) = -1 EACCES (Permission denied)
+openat(AT_FDCWD, "/proc/sys/kernel/kptr_restrict", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=0, ...}, AT_EMPTY_PATH) = 0
+read(3, "1\n", 1024)                    = 2
+read(3, "", 1024)                       = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/proc/sys/kernel/pid_max", O_RDWR|O_NOCTTY|O_CLOEXEC) = -1 EACCES (Permission denied)
+openat(AT_FDCWD, "/proc/sys/kernel/pid_max", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=0, ...}, AT_EMPTY_PATH) = 0
+read(3, "4194304\n", 1024)              = 8
+read(3, "", 1024)                       = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/proc/sys/kernel/poweroff_cmd", O_RDWR|O_NOCTTY|O_CLOEXEC) = -1 EACCES (Permission denied)
+openat(AT_FDCWD, "/proc/sys/kernel/poweroff_cmd", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=0, ...}, AT_EMPTY_PATH) = 0
+read(3, "/nix/store/dyxmql05ykvhgipv29l0v"..., 1024) = 72
+read(3, "", 1024)                       = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/proc/sys/kernel/yama/ptrace_scope", O_RDWR|O_NOCTTY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/proc/sys/kernel/yama/ptrace_scope", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+writev(2, [{iov_base="", iov_len=0}, {iov_base="Couldn't write '0' to 'kernel/ya"..., iov_len=85}, {iov_base="", iov_len=0}, {iov_base="\n", iov_len=1}], 4Couldn't write '0' to 'kernel/yama/ptrace_scope', ignoring: No such file or directory
+) = 86
+openat(AT_FDCWD, "/proc/sys/net/ipv4/conf/all/forwarding", O_RDWR|O_NOCTTY|O_CLOEXEC) = -1 EACCES (Permission denied)
+openat(AT_FDCWD, "/proc/sys/net/ipv4/conf/all/forwarding", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=0, ...}, AT_EMPTY_PATH) = 0
+read(3, "1\n", 1024)                    = 2
+read(3, "", 1024)                       = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/proc/sys/net/ipv6/conf/all/disable_ipv6", O_RDWR|O_NOCTTY|O_CLOEXEC) = -1 EACCES (Permission denied)
+openat(AT_FDCWD, "/proc/sys/net/ipv6/conf/all/disable_ipv6", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=0, ...}, AT_EMPTY_PATH) = 0
+read(3, "0\n", 1024)                    = 2
+read(3, "", 1024)                       = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/proc/sys/net/ipv6/conf/default/disable_ipv6", O_RDWR|O_NOCTTY|O_CLOEXEC) = -1 EACCES (Permission denied)
+openat(AT_FDCWD, "/proc/sys/net/ipv6/conf/default/disable_ipv6", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=0, ...}, AT_EMPTY_PATH) = 0
+read(3, "0\n", 1024)                    = 2
+read(3, "", 1024)                       = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/proc/sys/net/ipv6/conf/default/use_tempaddr", O_RDWR|O_NOCTTY|O_CLOEXEC) = -1 EACCES (Permission denied)
+openat(AT_FDCWD, "/proc/sys/net/ipv6/conf/default/use_tempaddr", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=0, ...}, AT_EMPTY_PATH) = 0
+read(3, "2\n", 1024)                    = 2
+read(3, "", 1024)                       = 0
+close(3)                                = 0
+exit_group(0)                           = ?
++++ exited with 0 +++

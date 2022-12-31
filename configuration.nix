@@ -31,8 +31,15 @@ in
     rootless.enable = true;
     rootless.setSocketVariable = true;
   };
+  time.timeZone = "Australia/Brisbane";
 
-  # Enable nix flakes
+  services.ntp = {
+    enable = true;
+    servers = [
+      "pool.ntp.org"
+    ];
+  };
+  #Enable nix flakes
   # TODO: Use this or the nix.extraOptions?
   nix.package = pkgs.nixFlakes;
 
